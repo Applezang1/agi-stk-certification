@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" standalone = "yes"?>
+<TimelineLine_Prefs STK_version = "13.0.0">
+    <Views Type = "Content">
+        <ContentView Name = "Scenario Availability">
+            <Row ClassName = "Scenario" ComponentName = "AvailabilityIntervals" DisplayName = "AccessReportsGraph AvailabilityIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "/Application/STK/Scenario/AccessReportsGraph" Type = "IntervalList">
+                <Interval Name = "AccessReportsGraph AvailabilityIntervals" StartTime = "30 Jun 2026 19:00:00.000" StopTime = "1 Jul 2026 19:00:00.000" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Facility-Castle_Rock_Teleport-Sensor-CR_FOV-To-Satellite-ONEWEB-0704_61609 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/AccessReportsGraph/Facility/Castle_Rock_Teleport/Sensor/CR_FOV;/Application/STK/Scenario/AccessReportsGraph/Satellite/ONEWEB-0704_61609" Type = "IntervalList">
+                <Interval Name = "Facility-Castle_Rock_Teleport-Sensor-CR_FOV-To-Satellite-ONEWEB-0704_61609 AccessIntervals" StartTime = "1 Jul 2026 01:41:22.562" StopTime = "1 Jul 2026 01:47:20.664" />
+                <Interval Name = "Facility-Castle_Rock_Teleport-Sensor-CR_FOV-To-Satellite-ONEWEB-0704_61609 AccessIntervals" StartTime = "1 Jul 2026 03:32:58.442" StopTime = "1 Jul 2026 03:35:09.662" />
+                <Interval Name = "Facility-Castle_Rock_Teleport-Sensor-CR_FOV-To-Satellite-ONEWEB-0704_61609 AccessIntervals" StartTime = "1 Jul 2026 14:00:02.343" StopTime = "1 Jul 2026 14:06:35.879" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Facility-Castle_Rock_Teleport-Sensor-CR_FOV-To-Satellite-ONEWEB-0705_61610 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/AccessReportsGraph/Facility/Castle_Rock_Teleport/Sensor/CR_FOV;/Application/STK/Scenario/AccessReportsGraph/Satellite/ONEWEB-0705_61610" Type = "IntervalList">
+                <Interval Name = "Facility-Castle_Rock_Teleport-Sensor-CR_FOV-To-Satellite-ONEWEB-0705_61610 AccessIntervals" StartTime = "1 Jul 2026 01:48:25.530" StopTime = "1 Jul 2026 01:55:03.930" />
+                <Interval Name = "Facility-Castle_Rock_Teleport-Sensor-CR_FOV-To-Satellite-ONEWEB-0705_61610 AccessIntervals" StartTime = "1 Jul 2026 14:07:04.792" StopTime = "1 Jul 2026 14:14:09.171" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Facility-Castle_Rock_Teleport-Sensor-CR_FOV-To-Satellite-ONEWEB-0706_61611 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/AccessReportsGraph/Facility/Castle_Rock_Teleport/Sensor/CR_FOV;/Application/STK/Scenario/AccessReportsGraph/Satellite/ONEWEB-0706_61611" Type = "IntervalList">
+                <Interval Name = "Facility-Castle_Rock_Teleport-Sensor-CR_FOV-To-Satellite-ONEWEB-0706_61611 AccessIntervals" StartTime = "1 Jul 2026 01:27:44.545" StopTime = "1 Jul 2026 01:31:27.200" />
+                <Interval Name = "Facility-Castle_Rock_Teleport-Sensor-CR_FOV-To-Satellite-ONEWEB-0706_61611 AccessIntervals" StartTime = "1 Jul 2026 03:16:55.892" StopTime = "1 Jul 2026 03:22:13.158" />
+                <Interval Name = "Facility-Castle_Rock_Teleport-Sensor-CR_FOV-To-Satellite-ONEWEB-0706_61611 AccessIntervals" StartTime = "1 Jul 2026 13:46:18.597" StopTime = "1 Jul 2026 13:51:16.611" />
+                <Interval Name = "Facility-Castle_Rock_Teleport-Sensor-CR_FOV-To-Satellite-ONEWEB-0706_61611 AccessIntervals" StartTime = "1 Jul 2026 15:36:37.590" StopTime = "1 Jul 2026 15:40:49.756" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Facility-Castle_Rock_Teleport-Sensor-CR_FOV-To-Satellite-ONEWEB-0707_61612 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/AccessReportsGraph/Facility/Castle_Rock_Teleport/Sensor/CR_FOV;/Application/STK/Scenario/AccessReportsGraph/Satellite/ONEWEB-0707_61612" Type = "IntervalList">
+                <Interval Name = "Facility-Castle_Rock_Teleport-Sensor-CR_FOV-To-Satellite-ONEWEB-0707_61612 AccessIntervals" StartTime = "1 Jul 2026 01:36:44.733" StopTime = "1 Jul 2026 01:42:07.998" />
+                <Interval Name = "Facility-Castle_Rock_Teleport-Sensor-CR_FOV-To-Satellite-ONEWEB-0707_61612 AccessIntervals" StartTime = "1 Jul 2026 03:27:25.426" StopTime = "1 Jul 2026 03:31:02.981" />
+                <Interval Name = "Facility-Castle_Rock_Teleport-Sensor-CR_FOV-To-Satellite-ONEWEB-0707_61612 AccessIntervals" StartTime = "1 Jul 2026 13:55:24.237" StopTime = "1 Jul 2026 14:01:31.843" />
+                <Interval Name = "Facility-Castle_Rock_Teleport-Sensor-CR_FOV-To-Satellite-ONEWEB-0707_61612 AccessIntervals" StartTime = "1 Jul 2026 15:48:21.887" StopTime = "1 Jul 2026 15:48:48.071" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Facility-Castle_Rock_Teleport-Sensor-CR_FOV-To-Satellite-ONEWEB-0708_61613 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/AccessReportsGraph/Facility/Castle_Rock_Teleport/Sensor/CR_FOV;/Application/STK/Scenario/AccessReportsGraph/Satellite/ONEWEB-0708_61613" Type = "IntervalList">
+                <Interval Name = "Facility-Castle_Rock_Teleport-Sensor-CR_FOV-To-Satellite-ONEWEB-0708_61613 AccessIntervals" StartTime = "1 Jul 2026 02:02:43.853" StopTime = "1 Jul 2026 02:10:14.299" />
+                <Interval Name = "Facility-Castle_Rock_Teleport-Sensor-CR_FOV-To-Satellite-ONEWEB-0708_61613 AccessIntervals" StartTime = "1 Jul 2026 14:21:21.619" StopTime = "1 Jul 2026 14:29:04.884" />
+            </Row>
+        </ContentView>
+    </Views>
+    <Views Type = "Time">
+        <TimeView FullViewRulerStartTime = "0.000000" FullViewRulerStopTime = "0.000000" GlobalIntervalComp = "AnalysisInterval" GlobalIntervalCompPath = "/Application/STK/Scenario/AccessReportsGraph" GlobalStartOffset = "0.000000" GlobalStartTime = "30 Jun 2026 19:00:00.000" GlobalStopOffset = "0.000000" GlobalStopTime = "1 Jul 2026 19:00:00.000" MaxFullViewTime = "0.000000" MinFullViewTime = "0.000000" Name = "Scenario Analysis Period" ViewportStartTime = "0.000000" ViewportStopTime = "0.000000" />
+    </Views>
+</TimelineLine_Prefs>

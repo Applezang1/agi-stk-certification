@@ -1,0 +1,877 @@
+stk.v.13.0
+WrittenBy    STK_v13.0.0
+BEGIN Access
+    Scenario/AccessReportsGraph/Facility/Castle_Rock_Teleport/Sensor/CR_FOV
+    Scenario/AccessReportsGraph/Satellite/ONEWEB-0705_61610
+
+    IsComputed		 Yes
+    SaveComputedData		 Yes
+    ComputationMode		 1
+    UpdateOnReference		 Yes
+    DupIsDifferent		 No
+    UIOrderReversed		 No
+    UITimePeriod		 Object
+    UseLightTimeDelay		 Yes
+    ClockHost		 Base
+    TimeSense		 Receive
+    AberrationType		 Annual
+    TimeDelayConvergence		 5e-05
+    SetMaxStepFromInsts		 Yes
+    MaxTimeStep		 360
+    MinTimeStep		 0.01
+    TimeConvergence		 0.005
+    AbsValueConvergence		 1e-14
+    RelValueConvergence		 1e-08
+    DetectEventsUsingSamplesOnly		 No
+
+    BEGIN ConsideredIntervals
+
+        2026-06-30T19:00:00.000000000 2026-07-01T19:00:00.000000000
+
+    END ConsideredIntervals
+
+    BEGIN AccessIntervals
+
+        2026-07-01T01:48:25.530263656 2026-07-01T01:55:03.930132993
+        2026-07-01T14:07:04.792411251 2026-07-01T14:14:09.170833104
+
+    END AccessIntervals
+
+    BEGIN StageList
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 Range
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 MinMax
+                    Min		 0
+                    Max		 2000000
+                    ComputationID		 1
+
+                    BEGIN ConstraintInputTimes
+
+                        2026-06-30T19:00:00.000000000 2026-07-01T19:00:00.000000000
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2026-07-01T01:48:25.530263656 2026-07-01T01:55:03.930132993
+                        2026-07-01T14:07:04.792411251 2026-07-01T14:14:09.170833104
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 LineOfSight
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 2
+
+                    BEGIN ConstraintInputTimes
+
+                        2026-07-01T01:48:25.530263656 2026-07-01T01:55:03.930132993
+                        2026-07-01T14:07:04.792411251 2026-07-01T14:14:09.170833104
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2026-07-01T01:48:25.530263656 2026-07-01T01:55:03.930132993
+                        2026-07-01T14:07:04.792411251 2026-07-01T14:14:09.170833104
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.17
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 FieldOfView
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 3
+
+                    BEGIN ConstraintInputTimes
+
+                        2026-07-01T01:48:25.530263656 2026-07-01T01:55:03.930132993
+                        2026-07-01T14:07:04.792411251 2026-07-01T14:14:09.170833104
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2026-07-01T01:48:25.530263656 2026-07-01T01:55:03.930132993
+                        2026-07-01T14:07:04.792411251 2026-07-01T14:14:09.170833104
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+    END StageList
+
+    Show		 Yes
+    Inherit		 Yes
+    ShowIV		 Yes
+    ShowLineGfx		 Yes
+    ShowHiliteGfx		 Yes
+    LineWidth		 1
+
+    LineStyle		 0
+    BEGIN Crdn
+    END Crdn
+
+END Access
+
+BEGIN Access
+    Scenario/AccessReportsGraph/Facility/Castle_Rock_Teleport/Sensor/CR_FOV
+    Scenario/AccessReportsGraph/Satellite/ONEWEB-0704_61609
+
+    IsComputed		 Yes
+    SaveComputedData		 Yes
+    ComputationMode		 1
+    UpdateOnReference		 Yes
+    DupIsDifferent		 No
+    UIOrderReversed		 No
+    UITimePeriod		 Object
+    UseLightTimeDelay		 Yes
+    ClockHost		 Base
+    TimeSense		 Receive
+    AberrationType		 Annual
+    TimeDelayConvergence		 5e-05
+    SetMaxStepFromInsts		 Yes
+    MaxTimeStep		 360
+    MinTimeStep		 0.01
+    TimeConvergence		 0.005
+    AbsValueConvergence		 1e-14
+    RelValueConvergence		 1e-08
+    DetectEventsUsingSamplesOnly		 No
+
+    BEGIN ConsideredIntervals
+
+        2026-06-30T19:00:00.000000000 2026-07-01T19:00:00.000000000
+
+    END ConsideredIntervals
+
+    BEGIN AccessIntervals
+
+        2026-07-01T01:41:22.561656948 2026-07-01T01:47:20.663827037
+        2026-07-01T03:32:58.442089460 2026-07-01T03:35:09.661630187
+        2026-07-01T14:00:02.342718365 2026-07-01T14:06:35.879489893
+
+    END AccessIntervals
+
+    BEGIN StageList
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 Range
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 MinMax
+                    Min		 0
+                    Max		 2000000
+                    ComputationID		 1
+
+                    BEGIN ConstraintInputTimes
+
+                        2026-06-30T19:00:00.000000000 2026-07-01T19:00:00.000000000
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2026-07-01T01:41:22.561656948 2026-07-01T01:47:20.663827037
+                        2026-07-01T03:32:58.442089460 2026-07-01T03:35:09.661630187
+                        2026-07-01T14:00:02.342718365 2026-07-01T14:06:35.879489893
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 LineOfSight
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 2
+
+                    BEGIN ConstraintInputTimes
+
+                        2026-07-01T01:41:22.561656948 2026-07-01T01:47:20.663827037
+                        2026-07-01T03:32:58.442089460 2026-07-01T03:35:09.661630187
+                        2026-07-01T14:00:02.342718365 2026-07-01T14:06:35.879489893
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2026-07-01T01:41:22.561656948 2026-07-01T01:47:20.663827037
+                        2026-07-01T03:32:58.442089460 2026-07-01T03:35:09.661630187
+                        2026-07-01T14:00:02.342718365 2026-07-01T14:06:35.879489893
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.17
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 FieldOfView
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 3
+
+                    BEGIN ConstraintInputTimes
+
+                        2026-07-01T01:41:22.561656948 2026-07-01T01:47:20.663827037
+                        2026-07-01T03:32:58.442089460 2026-07-01T03:35:09.661630187
+                        2026-07-01T14:00:02.342718365 2026-07-01T14:06:35.879489893
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2026-07-01T01:41:22.561656948 2026-07-01T01:47:20.663827037
+                        2026-07-01T03:32:58.442089460 2026-07-01T03:35:09.661630187
+                        2026-07-01T14:00:02.342718365 2026-07-01T14:06:35.879489893
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+    END StageList
+
+    Show		 Yes
+    Inherit		 Yes
+    ShowIV		 Yes
+    ShowLineGfx		 Yes
+    ShowHiliteGfx		 Yes
+    LineWidth		 1
+
+    LineStyle		 0
+    BEGIN Crdn
+    END Crdn
+
+END Access
+
+BEGIN Access
+    Scenario/AccessReportsGraph/Facility/Castle_Rock_Teleport/Sensor/CR_FOV
+    Scenario/AccessReportsGraph/Satellite/ONEWEB-0706_61611
+
+    IsComputed		 Yes
+    SaveComputedData		 Yes
+    ComputationMode		 1
+    UpdateOnReference		 Yes
+    DupIsDifferent		 No
+    UIOrderReversed		 No
+    UITimePeriod		 Object
+    UseLightTimeDelay		 Yes
+    ClockHost		 Base
+    TimeSense		 Receive
+    AberrationType		 Annual
+    TimeDelayConvergence		 5e-05
+    SetMaxStepFromInsts		 Yes
+    MaxTimeStep		 360
+    MinTimeStep		 0.01
+    TimeConvergence		 0.005
+    AbsValueConvergence		 1e-14
+    RelValueConvergence		 1e-08
+    DetectEventsUsingSamplesOnly		 No
+
+    BEGIN ConsideredIntervals
+
+        2026-06-30T19:00:00.000000000 2026-07-01T19:00:00.000000000
+
+    END ConsideredIntervals
+
+    BEGIN AccessIntervals
+
+        2026-07-01T01:27:44.545120378 2026-07-01T01:31:27.200001453
+        2026-07-01T03:16:55.892148392 2026-07-01T03:22:13.158137190
+        2026-07-01T13:46:18.596600471 2026-07-01T13:51:16.611337043
+        2026-07-01T15:36:37.590395565 2026-07-01T15:40:49.756395877
+
+    END AccessIntervals
+
+    BEGIN StageList
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 Range
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 MinMax
+                    Min		 0
+                    Max		 2000000
+                    ComputationID		 1
+
+                    BEGIN ConstraintInputTimes
+
+                        2026-06-30T19:00:00.000000000 2026-07-01T19:00:00.000000000
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2026-07-01T01:27:44.545120378 2026-07-01T01:31:27.200001453
+                        2026-07-01T03:16:55.892148392 2026-07-01T03:22:13.158137190
+                        2026-07-01T13:46:18.596600471 2026-07-01T13:51:16.611337043
+                        2026-07-01T15:36:37.590395565 2026-07-01T15:40:49.756395877
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 LineOfSight
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 2
+
+                    BEGIN ConstraintInputTimes
+
+                        2026-07-01T01:27:44.545120378 2026-07-01T01:31:27.200001453
+                        2026-07-01T03:16:55.892148392 2026-07-01T03:22:13.158137190
+                        2026-07-01T13:46:18.596600471 2026-07-01T13:51:16.611337043
+                        2026-07-01T15:36:37.590395565 2026-07-01T15:40:49.756395877
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2026-07-01T01:27:44.545120378 2026-07-01T01:31:27.200001453
+                        2026-07-01T03:16:55.892148392 2026-07-01T03:22:13.158137190
+                        2026-07-01T13:46:18.596600471 2026-07-01T13:51:16.611337043
+                        2026-07-01T15:36:37.590395565 2026-07-01T15:40:49.756395877
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.17
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 FieldOfView
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 3
+
+                    BEGIN ConstraintInputTimes
+
+                        2026-07-01T01:27:44.545120378 2026-07-01T01:31:27.200001453
+                        2026-07-01T03:16:55.892148392 2026-07-01T03:22:13.158137190
+                        2026-07-01T13:46:18.596600471 2026-07-01T13:51:16.611337043
+                        2026-07-01T15:36:37.590395565 2026-07-01T15:40:49.756395877
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2026-07-01T01:27:44.545120378 2026-07-01T01:31:27.200001453
+                        2026-07-01T03:16:55.892148392 2026-07-01T03:22:13.158137190
+                        2026-07-01T13:46:18.596600471 2026-07-01T13:51:16.611337043
+                        2026-07-01T15:36:37.590395565 2026-07-01T15:40:49.756395877
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+    END StageList
+
+    Show		 Yes
+    Inherit		 Yes
+    ShowIV		 Yes
+    ShowLineGfx		 Yes
+    ShowHiliteGfx		 Yes
+    LineWidth		 1
+
+    LineStyle		 0
+    BEGIN Crdn
+    END Crdn
+
+END Access
+
+BEGIN Access
+    Scenario/AccessReportsGraph/Facility/Castle_Rock_Teleport/Sensor/CR_FOV
+    Scenario/AccessReportsGraph/Satellite/ONEWEB-0708_61613
+
+    IsComputed		 Yes
+    SaveComputedData		 Yes
+    ComputationMode		 1
+    UpdateOnReference		 Yes
+    DupIsDifferent		 No
+    UIOrderReversed		 No
+    UITimePeriod		 Object
+    UseLightTimeDelay		 Yes
+    ClockHost		 Base
+    TimeSense		 Receive
+    AberrationType		 Annual
+    TimeDelayConvergence		 5e-05
+    SetMaxStepFromInsts		 Yes
+    MaxTimeStep		 360
+    MinTimeStep		 0.01
+    TimeConvergence		 0.005
+    AbsValueConvergence		 1e-14
+    RelValueConvergence		 1e-08
+    DetectEventsUsingSamplesOnly		 No
+
+    BEGIN ConsideredIntervals
+
+        2026-06-30T19:00:00.000000000 2026-07-01T19:00:00.000000000
+
+    END ConsideredIntervals
+
+    BEGIN AccessIntervals
+
+        2026-07-01T02:02:43.852921403 2026-07-01T02:10:14.299152001
+        2026-07-01T14:21:21.619398307 2026-07-01T14:29:04.884184761
+
+    END AccessIntervals
+
+    BEGIN StageList
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 Range
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 MinMax
+                    Min		 0
+                    Max		 2000000
+                    ComputationID		 1
+
+                    BEGIN ConstraintInputTimes
+
+                        2026-06-30T19:00:00.000000000 2026-07-01T19:00:00.000000000
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2026-07-01T02:02:43.852921403 2026-07-01T02:10:14.299152001
+                        2026-07-01T14:21:21.619398307 2026-07-01T14:29:04.884184761
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 LineOfSight
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 2
+
+                    BEGIN ConstraintInputTimes
+
+                        2026-07-01T02:02:43.852921403 2026-07-01T02:10:14.299152001
+                        2026-07-01T14:21:21.619398307 2026-07-01T14:29:04.884184761
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2026-07-01T02:02:43.852921403 2026-07-01T02:10:14.299152001
+                        2026-07-01T14:21:21.619398307 2026-07-01T14:29:04.884184761
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.17
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 FieldOfView
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 3
+
+                    BEGIN ConstraintInputTimes
+
+                        2026-07-01T02:02:43.852921403 2026-07-01T02:10:14.299152001
+                        2026-07-01T14:21:21.619398307 2026-07-01T14:29:04.884184761
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2026-07-01T02:02:43.852921403 2026-07-01T02:10:14.299152001
+                        2026-07-01T14:21:21.619398307 2026-07-01T14:29:04.884184761
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+    END StageList
+
+    Show		 Yes
+    Inherit		 Yes
+    ShowIV		 Yes
+    ShowLineGfx		 Yes
+    ShowHiliteGfx		 Yes
+    LineWidth		 1
+
+    LineStyle		 0
+    BEGIN Crdn
+    END Crdn
+
+END Access
+
+BEGIN Access
+    Scenario/AccessReportsGraph/Facility/Castle_Rock_Teleport/Sensor/CR_FOV
+    Scenario/AccessReportsGraph/Satellite/ONEWEB-0707_61612
+
+    IsComputed		 Yes
+    SaveComputedData		 Yes
+    ComputationMode		 1
+    UpdateOnReference		 Yes
+    DupIsDifferent		 No
+    UIOrderReversed		 No
+    UITimePeriod		 Object
+    UseLightTimeDelay		 Yes
+    ClockHost		 Base
+    TimeSense		 Receive
+    AberrationType		 Annual
+    TimeDelayConvergence		 5e-05
+    SetMaxStepFromInsts		 Yes
+    MaxTimeStep		 360
+    MinTimeStep		 0.01
+    TimeConvergence		 0.005
+    AbsValueConvergence		 1e-14
+    RelValueConvergence		 1e-08
+    DetectEventsUsingSamplesOnly		 No
+
+    BEGIN ConsideredIntervals
+
+        2026-06-30T19:00:00.000000000 2026-07-01T19:00:00.000000000
+
+    END ConsideredIntervals
+
+    BEGIN AccessIntervals
+
+        2026-07-01T01:36:44.732645337 2026-07-01T01:42:07.998108615
+        2026-07-01T03:27:25.425530342 2026-07-01T03:31:02.981208208
+        2026-07-01T13:55:24.236629386 2026-07-01T14:01:31.842766866
+        2026-07-01T15:48:21.887046769 2026-07-01T15:48:48.071014256
+
+    END AccessIntervals
+
+    BEGIN StageList
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 Range
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 MinMax
+                    Min		 0
+                    Max		 2000000
+                    ComputationID		 1
+
+                    BEGIN ConstraintInputTimes
+
+                        2026-06-30T19:00:00.000000000 2026-07-01T19:00:00.000000000
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2026-07-01T01:36:44.732645337 2026-07-01T01:42:07.998108615
+                        2026-07-01T03:27:25.425530342 2026-07-01T03:31:02.981208208
+                        2026-07-01T13:55:24.236629386 2026-07-01T14:01:31.842766866
+                        2026-07-01T15:48:21.887046769 2026-07-01T15:48:48.071014256
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 LineOfSight
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 2
+
+                    BEGIN ConstraintInputTimes
+
+                        2026-07-01T01:36:44.732645337 2026-07-01T01:42:07.998108615
+                        2026-07-01T03:27:25.425530342 2026-07-01T03:31:02.981208208
+                        2026-07-01T13:55:24.236629386 2026-07-01T14:01:31.842766866
+                        2026-07-01T15:48:21.887046769 2026-07-01T15:48:48.071014256
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2026-07-01T01:36:44.732645337 2026-07-01T01:42:07.998108615
+                        2026-07-01T03:27:25.425530342 2026-07-01T03:31:02.981208208
+                        2026-07-01T13:55:24.236629386 2026-07-01T14:01:31.842766866
+                        2026-07-01T15:48:21.887046769 2026-07-01T15:48:48.071014256
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.17
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 FieldOfView
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 3
+
+                    BEGIN ConstraintInputTimes
+
+                        2026-07-01T01:36:44.732645337 2026-07-01T01:42:07.998108615
+                        2026-07-01T03:27:25.425530342 2026-07-01T03:31:02.981208208
+                        2026-07-01T13:55:24.236629386 2026-07-01T14:01:31.842766866
+                        2026-07-01T15:48:21.887046769 2026-07-01T15:48:48.071014256
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2026-07-01T01:36:44.732645337 2026-07-01T01:42:07.998108615
+                        2026-07-01T03:27:25.425530342 2026-07-01T03:31:02.981208208
+                        2026-07-01T13:55:24.236629386 2026-07-01T14:01:31.842766866
+                        2026-07-01T15:48:21.887046769 2026-07-01T15:48:48.071014256
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+    END StageList
+
+    Show		 Yes
+    Inherit		 Yes
+    ShowIV		 Yes
+    ShowLineGfx		 Yes
+    ShowHiliteGfx		 Yes
+    LineWidth		 1
+
+    LineStyle		 0
+    BEGIN Crdn
+    END Crdn
+
+END Access
+

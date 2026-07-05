@@ -1,0 +1,17 @@
+                                                                              30 Jun 2026 09:42:51
+Facility-Castle_Rock_Teleport-Sensor-CR_FOV-To-Satellite-ONEWEB-0708_61613:  Access Summary Report
+
+
+CR_FOV-To-ONEWEB-0708_61613
+---------------------------
+                  Access       Start Time (UTCG)           Stop Time (UTCG)       Duration (sec)
+                  ------    -----------------------    -----------------------    --------------
+                       1    1 Jul 2026 02:04:47.863    1 Jul 2026 02:08:10.506           202.643
+                       2    1 Jul 2026 14:23:15.898    1 Jul 2026 14:27:10.586           234.688
+
+Statistics
+----------
+Min Duration           1    1 Jul 2026 02:04:47.863    1 Jul 2026 02:08:10.506           202.643
+Max Duration           2    1 Jul 2026 14:23:15.898    1 Jul 2026 14:27:10.586           234.688
+Mean Duration                                                                            218.666
+Total Duration                                                                           437.331
