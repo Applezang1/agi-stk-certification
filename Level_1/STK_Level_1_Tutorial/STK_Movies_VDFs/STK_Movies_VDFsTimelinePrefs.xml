@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" standalone = "yes"?>
+<TimelineLine_Prefs STK_version = "13.0.0">
+    <Views Type = "Content">
+        <ContentView Name = "Scenario Availability">
+            <Row ClassName = "Scenario" ComponentName = "AvailabilityIntervals" DisplayName = "STK_Movies_VDFs AvailabilityIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "/Application/STK/Scenario/STK_Movies_VDFs" Type = "IntervalList">
+                <Interval Name = "STK_Movies_VDFs AvailabilityIntervals" StartTime = "1 Mar 2023 23:00:00.000" StopTime = "2 Mar 2023 03:00:00.000" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Aircraft-PhotoMission-To-Place-Amami_Japan AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/STK_Movies_VDFs/Aircraft/PhotoMission;/Application/STK/Scenario/STK_Movies_VDFs/Place/Amami_Japan" Type = "IntervalList">
+                <Interval Name = "Aircraft-PhotoMission-To-Place-Amami_Japan AccessIntervals" StartTime = "1 Mar 2023 23:20:54.558" StopTime = "2 Mar 2023 00:32:09.900" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Aircraft-PhotoMission-To-Place-Minamidaito_Japan AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/STK_Movies_VDFs/Aircraft/PhotoMission;/Application/STK/Scenario/STK_Movies_VDFs/Place/Minamidaito_Japan" Type = "IntervalList">
+                <Interval Name = "Aircraft-PhotoMission-To-Place-Minamidaito_Japan AccessIntervals" StartTime = "2 Mar 2023 00:20:40.525" StopTime = "2 Mar 2023 01:34:30.345" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Aircraft-PhotoMission-To-Place-Naha_Airport_Japan AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/STK_Movies_VDFs/Aircraft/PhotoMission;/Application/STK/Scenario/STK_Movies_VDFs/Place/Naha_Airport_Japan" Type = "IntervalList">
+                <Interval Name = "Aircraft-PhotoMission-To-Place-Naha_Airport_Japan AccessIntervals" StartTime = "1 Mar 2023 23:00:00.000" StopTime = "1 Mar 2023 23:37:41.091" />
+                <Interval Name = "Aircraft-PhotoMission-To-Place-Naha_Airport_Japan AccessIntervals" StartTime = "2 Mar 2023 01:28:32.284" StopTime = "2 Mar 2023 02:05:00.078" />
+            </Row>
+        </ContentView>
+    </Views>
+    <Views Type = "Time">
+        <TimeView FullViewRulerStartTime = "0.000000" FullViewRulerStopTime = "0.000000" GlobalIntervalComp = "AnalysisInterval" GlobalIntervalCompPath = "/Application/STK/Scenario/STK_Movies_VDFs" GlobalStartOffset = "0.000000" GlobalStartTime = "1 Mar 2023 23:00:00.000" GlobalStopOffset = "0.000000" GlobalStopTime = "2 Mar 2023 03:00:00.000" MaxFullViewTime = "0.000000" MinFullViewTime = "0.000000" Name = "Scenario Analysis Period" ViewportStartTime = "0.000000" ViewportStopTime = "0.000000" />
+    </Views>
+</TimelineLine_Prefs>
