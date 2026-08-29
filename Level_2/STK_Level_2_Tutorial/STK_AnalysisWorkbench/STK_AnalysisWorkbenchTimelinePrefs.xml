@@ -1,0 +1,64 @@
+<?xml version = "1.0" encoding = "UTF-8" standalone = "yes"?>
+<TimelineLine_Prefs STK_version = "13.0.0">
+    <Views Type = "Content">
+        <ContentView Name = "Scenario Availability">
+            <Row ClassName = "Scenario" ComponentName = "AvailabilityIntervals" DisplayName = "STK_AnalysisWorkbench AvailabilityIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "/Application/STK/Scenario/STK_AnalysisWorkbench" Type = "IntervalList">
+                <Interval Name = "STK_AnalysisWorkbench AvailabilityIntervals" StartTime = "1 Jul 2026 19:00:00.000" StopTime = "6 Jul 2026 19:00:00.000" />
+            </Row>
+            <Row DisplayName = "Kaena_Point_Radar_STDN_KPTQ LightingIntervals" IsExpanded = "False" IsGroup = "True">
+                <Row ClassName = "Facility" ComponentName = "LightingIntervals" DisplayName = "Kaena_Point_Radar_STDN_KPTQ LightingIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "/Application/STK/Scenario/STK_AnalysisWorkbench/Facility/Kaena_Point_Radar_STDN_KPTQ" Type = "CollectionOfIntervals">
+                    <Interval Color = "Black" FontColor = "Gray" Name = "Umbra" Opacity = "0.8" StartTime = "2 Jul 2026 05:17:03.531" StopTime = "2 Jul 2026 15:57:19.721" />
+                    <Interval Color = "Black" FontColor = "Gray" Name = "Umbra" Opacity = "0.8" StartTime = "3 Jul 2026 05:17:05.822" StopTime = "3 Jul 2026 15:57:39.927" />
+                    <Interval Color = "Black" FontColor = "Gray" Name = "Umbra" Opacity = "0.8" StartTime = "4 Jul 2026 05:17:07.074" StopTime = "4 Jul 2026 15:58:00.580" />
+                    <Interval Color = "Black" FontColor = "Gray" Name = "Umbra" Opacity = "0.8" StartTime = "5 Jul 2026 05:17:07.277" StopTime = "5 Jul 2026 15:58:21.657" />
+                    <Interval Color = "Black" FontColor = "Gray" Name = "Umbra" Opacity = "0.8" StartTime = "6 Jul 2026 05:17:06.420" StopTime = "6 Jul 2026 15:58:43.137" />
+                    <Interval Color = "DarkBlue" FontColor = "Gray" Name = "Penumbra" Opacity = "0.8" StartTime = "2 Jul 2026 05:14:34.402" StopTime = "2 Jul 2026 05:17:03.531" />
+                    <Interval Color = "DarkBlue" FontColor = "Gray" Name = "Penumbra" Opacity = "0.8" StartTime = "2 Jul 2026 15:57:19.721" StopTime = "2 Jul 2026 15:59:48.834" />
+                    <Interval Color = "DarkBlue" FontColor = "Gray" Name = "Penumbra" Opacity = "0.8" StartTime = "3 Jul 2026 05:14:36.796" StopTime = "3 Jul 2026 05:17:05.822" />
+                    <Interval Color = "DarkBlue" FontColor = "Gray" Name = "Penumbra" Opacity = "0.8" StartTime = "3 Jul 2026 15:57:39.927" StopTime = "3 Jul 2026 16:00:08.933" />
+                    <Interval Color = "DarkBlue" FontColor = "Gray" Name = "Penumbra" Opacity = "0.8" StartTime = "4 Jul 2026 05:14:38.162" StopTime = "4 Jul 2026 05:17:07.074" />
+                    <Interval Color = "DarkBlue" FontColor = "Gray" Name = "Penumbra" Opacity = "0.8" StartTime = "4 Jul 2026 15:58:00.580" StopTime = "4 Jul 2026 16:00:29.473" />
+                    <Interval Color = "DarkBlue" FontColor = "Gray" Name = "Penumbra" Opacity = "0.8" StartTime = "5 Jul 2026 05:14:38.485" StopTime = "5 Jul 2026 05:17:07.277" />
+                    <Interval Color = "DarkBlue" FontColor = "Gray" Name = "Penumbra" Opacity = "0.8" StartTime = "5 Jul 2026 15:58:21.657" StopTime = "5 Jul 2026 16:00:50.430" />
+                    <Interval Color = "DarkBlue" FontColor = "Gray" Name = "Penumbra" Opacity = "0.8" StartTime = "6 Jul 2026 05:14:37.759" StopTime = "6 Jul 2026 05:17:06.420" />
+                    <Interval Color = "DarkBlue" FontColor = "Gray" Name = "Penumbra" Opacity = "0.8" StartTime = "6 Jul 2026 15:58:43.137" StopTime = "6 Jul 2026 16:01:11.778" />
+                    <Interval Color = "Yellow" FontColor = "Black" Name = "Sunlight" Opacity = "0.6" StartTime = "1 Jul 2026 19:00:00.000" StopTime = "2 Jul 2026 05:14:34.402" />
+                    <Interval Color = "Yellow" FontColor = "Black" Name = "Sunlight" Opacity = "0.6" StartTime = "2 Jul 2026 15:59:48.834" StopTime = "3 Jul 2026 05:14:36.796" />
+                    <Interval Color = "Yellow" FontColor = "Black" Name = "Sunlight" Opacity = "0.6" StartTime = "3 Jul 2026 16:00:08.933" StopTime = "4 Jul 2026 05:14:38.162" />
+                    <Interval Color = "Yellow" FontColor = "Black" Name = "Sunlight" Opacity = "0.6" StartTime = "4 Jul 2026 16:00:29.473" StopTime = "5 Jul 2026 05:14:38.485" />
+                    <Interval Color = "Yellow" FontColor = "Black" Name = "Sunlight" Opacity = "0.6" StartTime = "5 Jul 2026 16:00:50.430" StopTime = "6 Jul 2026 05:14:37.759" />
+                    <Interval Color = "Yellow" FontColor = "Black" Name = "Sunlight" Opacity = "0.6" StartTime = "6 Jul 2026 16:01:11.778" StopTime = "6 Jul 2026 19:00:00.000" />
+                </Row>
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Facility-Kaena_Point_Radar_STDN_KPTQ-To-Satellite-GEO_Sat AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/STK_AnalysisWorkbench/Facility/Kaena_Point_Radar_STDN_KPTQ;/Application/STK/Scenario/STK_AnalysisWorkbench/Satellite/GEO_Sat" Type = "IntervalList">
+                <Interval Name = "Facility-Kaena_Point_Radar_STDN_KPTQ-To-Satellite-GEO_Sat AccessIntervals" StartTime = "1 Jul 2026 19:00:00.000" StopTime = "6 Jul 2026 19:00:00.000" />
+            </Row>
+            <Row ClassName = "Facility" ComponentName = "Below_30_Degrees.SatisfactionIntervals" DisplayName = "Kaena_Point_Radar_STDN_KPTQ Below_30_Degrees.SatisfactionIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "/Application/STK/Scenario/STK_AnalysisWorkbench/Facility/Kaena_Point_Radar_STDN_KPTQ" Type = "IntervalList">
+                <Interval Name = "Kaena_Point_Radar_STDN_KPTQ Below_30_Degrees.SatisfactionIntervals" StartTime = "1 Jul 2026 21:02:45.611" StopTime = "1 Jul 2026 22:54:27.472" />
+                <Interval Name = "Kaena_Point_Radar_STDN_KPTQ Below_30_Degrees.SatisfactionIntervals" StartTime = "2 Jul 2026 21:02:21.422" StopTime = "2 Jul 2026 22:55:14.366" />
+                <Interval Name = "Kaena_Point_Radar_STDN_KPTQ Below_30_Degrees.SatisfactionIntervals" StartTime = "3 Jul 2026 21:01:54.355" StopTime = "3 Jul 2026 22:56:03.560" />
+                <Interval Name = "Kaena_Point_Radar_STDN_KPTQ Below_30_Degrees.SatisfactionIntervals" StartTime = "4 Jul 2026 21:01:24.527" StopTime = "4 Jul 2026 22:56:54.902" />
+                <Interval Name = "Kaena_Point_Radar_STDN_KPTQ Below_30_Degrees.SatisfactionIntervals" StartTime = "5 Jul 2026 21:00:52.055" StopTime = "5 Jul 2026 22:57:48.240" />
+            </Row>
+            <Row ClassName = "Facility" ComponentName = "Optimal_Tracking_Times" DisplayName = "Kaena_Point_Radar_STDN_KPTQ Optimal_Tracking_Times" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "/Application/STK/Scenario/STK_AnalysisWorkbench/Facility/Kaena_Point_Radar_STDN_KPTQ" Type = "IntervalList">
+                <Interval Name = "Kaena_Point_Radar_STDN_KPTQ Optimal_Tracking_Times" StartTime = "1 Jul 2026 19:00:00.000" StopTime = "1 Jul 2026 21:02:45.611" />
+                <Interval Name = "Kaena_Point_Radar_STDN_KPTQ Optimal_Tracking_Times" StartTime = "1 Jul 2026 22:54:27.472" StopTime = "2 Jul 2026 21:02:21.422" />
+                <Interval Name = "Kaena_Point_Radar_STDN_KPTQ Optimal_Tracking_Times" StartTime = "2 Jul 2026 22:55:14.366" StopTime = "3 Jul 2026 21:01:54.355" />
+                <Interval Name = "Kaena_Point_Radar_STDN_KPTQ Optimal_Tracking_Times" StartTime = "3 Jul 2026 22:56:03.560" StopTime = "4 Jul 2026 21:01:24.527" />
+                <Interval Name = "Kaena_Point_Radar_STDN_KPTQ Optimal_Tracking_Times" StartTime = "4 Jul 2026 22:56:54.902" StopTime = "5 Jul 2026 21:00:52.055" />
+                <Interval Name = "Kaena_Point_Radar_STDN_KPTQ Optimal_Tracking_Times" StartTime = "5 Jul 2026 22:57:48.240" StopTime = "6 Jul 2026 19:00:00.000" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Facility-Kaena_Point_Radar_STDN_KPTQ-Sensor-Tracking_Sensor-To-Satellite-GEO_Sat AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/STK_AnalysisWorkbench/Facility/Kaena_Point_Radar_STDN_KPTQ/Sensor/Tracking_Sensor;/Application/STK/Scenario/STK_AnalysisWorkbench/Satellite/GEO_Sat" Type = "IntervalList">
+                <Interval Name = "Facility-Kaena_Point_Radar_STDN_KPTQ-Sensor-Tracking_Sensor-To-Satellite-GEO_Sat AccessIntervals" StartTime = "1 Jul 2026 19:00:00.000" StopTime = "1 Jul 2026 21:02:45.611" />
+                <Interval Name = "Facility-Kaena_Point_Radar_STDN_KPTQ-Sensor-Tracking_Sensor-To-Satellite-GEO_Sat AccessIntervals" StartTime = "1 Jul 2026 22:54:27.472" StopTime = "2 Jul 2026 21:02:21.422" />
+                <Interval Name = "Facility-Kaena_Point_Radar_STDN_KPTQ-Sensor-Tracking_Sensor-To-Satellite-GEO_Sat AccessIntervals" StartTime = "2 Jul 2026 22:55:14.366" StopTime = "3 Jul 2026 21:01:54.355" />
+                <Interval Name = "Facility-Kaena_Point_Radar_STDN_KPTQ-Sensor-Tracking_Sensor-To-Satellite-GEO_Sat AccessIntervals" StartTime = "3 Jul 2026 22:56:03.560" StopTime = "4 Jul 2026 21:01:24.527" />
+                <Interval Name = "Facility-Kaena_Point_Radar_STDN_KPTQ-Sensor-Tracking_Sensor-To-Satellite-GEO_Sat AccessIntervals" StartTime = "4 Jul 2026 22:56:54.902" StopTime = "5 Jul 2026 21:00:52.055" />
+                <Interval Name = "Facility-Kaena_Point_Radar_STDN_KPTQ-Sensor-Tracking_Sensor-To-Satellite-GEO_Sat AccessIntervals" StartTime = "5 Jul 2026 22:57:48.240" StopTime = "6 Jul 2026 19:00:00.000" />
+            </Row>
+        </ContentView>
+    </Views>
+    <Views Type = "Time">
+        <TimeView FullViewRulerStartTime = "0.000000" FullViewRulerStopTime = "0.000000" GlobalIntervalComp = "AnalysisInterval" GlobalIntervalCompPath = "/Application/STK/Scenario/STK_AnalysisWorkbench" GlobalStartOffset = "0.000000" GlobalStartTime = "1 Jul 2026 19:00:00.000" GlobalStopOffset = "0.000000" GlobalStopTime = "6 Jul 2026 19:00:00.000" MaxFullViewTime = "0.000000" MinFullViewTime = "0.000000" Name = "Scenario Analysis Period" ViewportStartTime = "0.000000" ViewportStopTime = "0.000000" />
+    </Views>
+</TimelineLine_Prefs>

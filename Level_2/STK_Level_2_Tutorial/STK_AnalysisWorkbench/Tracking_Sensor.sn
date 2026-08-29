@@ -1,0 +1,218 @@
+stk.v.13.0
+WrittenBy    STK_v13.0.0
+
+BEGIN Sensor
+
+    Name		 Tracking_Sensor
+
+    BEGIN Pattern
+
+        BEGIN SimpleCone
+
+            ConeAngle		  5.0000000000000000e+00
+            AngularPatternResolution		  4.0000000000000000e+00
+
+        END SimpleCone
+
+        DetailedTerrainHorizon		 Yes
+
+
+    END Pattern
+
+    BEGIN Pointing
+
+        BEGIN Targeted
+
+            TargetMode		 Tracking
+            AboutBoresightOption		 323            TrackingMode		 Receive
+            AberrationType		 Annual
+            TimeDelayConvergence		 5e-05
+            MaxTimeStep		 360
+            MinTimeStep		 0.01
+            TimeConvergence		 0.005
+            AbsValueConvergence		 1e-14
+            RelValueConvergence		 1e-08
+            DetectEventsUsingSamplesOnly		 No
+
+            BEGIN AssignedTargets
+
+                Satellite/GEO_Sat
+
+            END AssignedTargets
+
+            BEGIN TargetInviews
+
+                Satellite/GEO_Sat 2026-07-01T19:00:00.000000000 2026-07-01T21:02:45.610899983
+                Satellite/GEO_Sat 2026-07-01T22:54:27.472322515 2026-07-02T21:02:21.421877549
+                Satellite/GEO_Sat 2026-07-02T22:55:14.366397727 2026-07-03T21:01:54.355399803
+                Satellite/GEO_Sat 2026-07-03T22:56:03.559829789 2026-07-04T21:01:24.527336100
+                Satellite/GEO_Sat 2026-07-04T22:56:54.902059131 2026-07-05T21:00:52.054966254
+                Satellite/GEO_Sat 2026-07-05T22:57:48.239886461 2026-07-06T19:00:00.000000000
+
+            END TargetInviews
+
+            SaveTargetAccesses		 Yes
+
+            UseTargetSchedule		 No
+
+            BEGIN Stable
+                Use		 No
+                Mode		 NorthStable
+            END Stable
+            AdjustPointingToTargetsDuringAccessToTargets		 No
+            UseTrackControl		 No
+
+        END Targeted
+
+    END Pointing
+
+    BEGIN Optics
+
+        FocalLength		  1.0000000000000000e+02
+        DetectorPitch		  1.0000000000000000e-03
+        IQConstant		  0.0000000000000000e+00
+        GsdCoefficient		  0.0000000000000000e+00
+
+    END Optics
+
+    BEGIN Extensions
+
+        BEGIN ExternData
+        END ExternData
+
+        BEGIN ADFFileData
+        END ADFFileData
+
+        BEGIN AccessConstraints
+            FieldOfView IncludeIntervals
+            LineOfSight IncludeIntervals
+            Intervals            Kind		 TimeComponent Optimal_Tracking_Times Facility/Kaena_Point_Radar_STDN_KPTQ Interval List IncludeIntervals
+
+            UsePreferredMaxStep No
+            PreferredMaxStep 360
+        END AccessConstraints
+
+        BEGIN ObjectCoverage
+        END ObjectCoverage
+
+        BEGIN Desc
+            BEGIN ShortText
+
+            END ShortText
+            BEGIN LongText
+
+            END LongText
+        END Desc
+
+        BEGIN Refraction
+            RefractionModel		 Effective Radius Method
+
+            UseRefractionInAccess		 No
+
+            BEGIN ModelData
+                RefractionCeiling		  5.0000000000000000e+03
+                MaxTargetAltitude		  1.0000000000000000e+04
+                EffectiveRadius		  1.3333333333333299e+00
+
+                UseExtrapolation		 Yes
+
+
+            END ModelData
+        END Refraction
+
+        BEGIN Crdn
+        END Crdn
+
+        BEGIN ChainAnalysisOptions
+            ConstantDelay		  0.0000000000000000e+00
+            ConstantDataRate		  1.0000000000000000e+06
+        END ChainAnalysisOptions
+
+        BEGIN Graphics
+
+            BEGIN Attributes
+
+                Inherit		 Yes
+                Show		 Yes
+                LineStyle		 0
+                LineWidth		 1
+                PatternColor		 #00ffff
+
+            END Attributes
+
+            BEGIN Display
+
+                NumberOfPatterns		 1
+                PersistenceDuration		  0.0000000000000000e+00
+                PersistenceIgnoreDefChg		 No
+                UpdatesDefnOften		 No
+                MinDisplayAltitude		  0.0000000000000000e+00
+                MaxDisplayAltitude		  1.0000000000000000e+07
+                AltitudeIntersectSense		 InsideOut
+                ShowBothAltCrossings		 No
+                IntersectType		 CentralBody
+                ShowGround		 Yes
+                UseProjectionRadii		 Yes
+                ExcludeHorizonArcs		 No
+                ForwardPersist		 No
+                FillPersist		 No
+                DsplyTmHidesPersist		 No
+                SpaceLength		  5.0000000000000000e+07
+                TgtExtLength		  0.0000000000000000e+00
+                FOVHalfAngle		 No
+                HalfAngle		  0.0000000000000000e+00
+                ProjDisplay		 Sphere
+                DisplayType		 ConstantRadius
+                DisplayFOVWithConstraints		 No
+                ShowBoresight		 No
+                BoresightMarker		 4
+                BoresightColor		 #ffffff
+                ShowFill		 No
+                FillTranslucency		 0.5
+                ShowOn2DMap		 Yes
+
+            END Display
+
+            BEGIN Swath
+
+                MaxStep		  6.0000000000000000e+01
+                MinStep		  1.0000000000000001e-01
+                CloseSwath		 Yes
+                Tolerance		  4.0000000000000000e+00
+                MatchTolerance		  9.0000000000000000e+01
+                ShowSwath		 No
+                ComputationalMethod		 Numerical
+                Color		 #00ffff
+                LineStyle		 0
+                LineWidth		 1
+                SwathIntervalPtr		
+                BEGIN EVENTINTERVAL
+                    BEGIN Interval
+                        Start		 1 Jul 2026 19:00:00.000000000
+                        Stop		 6 Jul 2026 19:00:00.000000000
+                    END Interval
+                    IntervalState		 Explicit
+                END EVENTINTERVAL
+
+
+            END Swath
+
+            BEGIN DisplayTimes
+                DisplayType		 AlwaysOn
+            END DisplayTimes
+        END Graphics
+
+        BEGIN Swath
+        END Swath
+
+        BEGIN VO
+        END VO
+
+    END Extensions
+
+    BEGIN SubObjects
+
+    END SubObjects
+
+END Sensor
+
