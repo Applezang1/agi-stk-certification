@@ -1,0 +1,44 @@
+<?xml version = "1.0" encoding = "UTF-8" standalone = "yes"?>
+<TimelineLine_Prefs STK_version = "13.0.0">
+    <Views Type = "Content">
+        <ContentView Name = "Scenario Availability">
+            <Row ClassName = "Scenario" ComponentName = "AvailabilityIntervals" DisplayName = "AzElMask_Volumetrics AvailabilityIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "/Application/STK/Scenario/AzElMask_Volumetrics" Type = "IntervalList">
+                <Interval Name = "AzElMask_Volumetrics AvailabilityIntervals" StartTime = "15 Mar 2024 12:00:00.000" StopTime = "16 Mar 2024 12:00:00.000" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Facility-Radar_Site-Sensor-Radar_FOV-To-Satellite-Beesat1_35933 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/AzElMask_Volumetrics/Facility/Radar_Site/Sensor/Radar_FOV;/Application/STK/Scenario/AzElMask_Volumetrics/Satellite/Beesat1_35933" Type = "IntervalList">
+                <Interval Name = "Facility-Radar_Site-Sensor-Radar_FOV-To-Satellite-Beesat1_35933 AccessIntervals" StartTime = "15 Mar 2024 19:53:13.061" StopTime = "15 Mar 2024 20:04:00.557" />
+                <Interval Name = "Facility-Radar_Site-Sensor-Radar_FOV-To-Satellite-Beesat1_35933 AccessIntervals" StartTime = "15 Mar 2024 21:29:51.500" StopTime = "15 Mar 2024 21:43:26.092" />
+                <Interval Name = "Facility-Radar_Site-Sensor-Radar_FOV-To-Satellite-Beesat1_35933 AccessIntervals" StartTime = "15 Mar 2024 23:08:11.039" StopTime = "15 Mar 2024 23:18:29.532" />
+                <Interval Name = "Facility-Radar_Site-Sensor-Radar_FOV-To-Satellite-Beesat1_35933 AccessIntervals" StartTime = "16 Mar 2024 05:30:27.304" StopTime = "16 Mar 2024 05:34:44.188" />
+                <Interval Name = "Facility-Radar_Site-Sensor-Radar_FOV-To-Satellite-Beesat1_35933 AccessIntervals" StartTime = "16 Mar 2024 07:01:56.876" StopTime = "16 Mar 2024 07:14:25.933" />
+                <Interval Name = "Facility-Radar_Site-Sensor-Radar_FOV-To-Satellite-Beesat1_35933 AccessIntervals" StartTime = "16 Mar 2024 08:38:56.534" StopTime = "16 Mar 2024 08:52:17.638" />
+                <Interval Name = "Facility-Radar_Site-Sensor-Radar_FOV-To-Satellite-Beesat1_35933 AccessIntervals" StartTime = "16 Mar 2024 10:20:46.316" StopTime = "16 Mar 2024 10:20:54.416" />
+                <Interval Name = "Facility-Radar_Site-Sensor-Radar_FOV-To-Satellite-Beesat1_35933 AccessIntervals" StartTime = "16 Mar 2024 10:21:49.637" StopTime = "16 Mar 2024 10:27:39.119" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Facility-Radar_Site-Sensor-Radar_FOV-To-Satellite-DlrTubsat_25757 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/AzElMask_Volumetrics/Facility/Radar_Site/Sensor/Radar_FOV;/Application/STK/Scenario/AzElMask_Volumetrics/Satellite/DlrTubsat_25757" Type = "IntervalList">
+                <Interval Name = "Facility-Radar_Site-Sensor-Radar_FOV-To-Satellite-DlrTubsat_25757 AccessIntervals" StartTime = "15 Mar 2024 12:18:30.699" StopTime = "15 Mar 2024 12:31:09.837" />
+                <Interval Name = "Facility-Radar_Site-Sensor-Radar_FOV-To-Satellite-DlrTubsat_25757 AccessIntervals" StartTime = "15 Mar 2024 13:55:56.274" StopTime = "15 Mar 2024 14:09:27.257" />
+                <Interval Name = "Facility-Radar_Site-Sensor-Radar_FOV-To-Satellite-DlrTubsat_25757 AccessIntervals" StartTime = "15 Mar 2024 15:38:07.893" StopTime = "15 Mar 2024 15:38:23.919" />
+                <Interval Name = "Facility-Radar_Site-Sensor-Radar_FOV-To-Satellite-DlrTubsat_25757 AccessIntervals" StartTime = "15 Mar 2024 15:39:19.166" StopTime = "15 Mar 2024 15:45:18.882" />
+                <Interval Name = "Facility-Radar_Site-Sensor-Radar_FOV-To-Satellite-DlrTubsat_25757 AccessIntervals" StartTime = "16 Mar 2024 00:20:18.267" StopTime = "16 Mar 2024 00:23:00.787" />
+                <Interval Name = "Facility-Radar_Site-Sensor-Radar_FOV-To-Satellite-DlrTubsat_25757 AccessIntervals" StartTime = "16 Mar 2024 01:53:58.858" StopTime = "16 Mar 2024 02:07:13.237" />
+                <Interval Name = "Facility-Radar_Site-Sensor-Radar_FOV-To-Satellite-DlrTubsat_25757 AccessIntervals" StartTime = "16 Mar 2024 03:32:00.603" StopTime = "16 Mar 2024 03:45:12.713" />
+                <Interval Name = "Facility-Radar_Site-Sensor-Radar_FOV-To-Satellite-DlrTubsat_25757 AccessIntervals" StartTime = "16 Mar 2024 05:11:23.361" StopTime = "16 Mar 2024 05:19:00.682" />
+                <Interval Name = "Facility-Radar_Site-Sensor-Radar_FOV-To-Satellite-DlrTubsat_25757 AccessIntervals" StartTime = "16 Mar 2024 11:30:28.692" StopTime = "16 Mar 2024 11:40:35.172" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Facility-Radar_Site-Sensor-Radar_FOV-To-Satellite-MarocTubsat_27004 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/AzElMask_Volumetrics/Facility/Radar_Site/Sensor/Radar_FOV;/Application/STK/Scenario/AzElMask_Volumetrics/Satellite/MarocTubsat_27004" Type = "IntervalList">
+                <Interval Name = "Facility-Radar_Site-Sensor-Radar_FOV-To-Satellite-MarocTubsat_27004 AccessIntervals" StartTime = "15 Mar 2024 14:04:20.876" StopTime = "15 Mar 2024 14:19:05.912" />
+                <Interval Name = "Facility-Radar_Site-Sensor-Radar_FOV-To-Satellite-MarocTubsat_27004 AccessIntervals" StartTime = "15 Mar 2024 15:47:28.248" StopTime = "15 Mar 2024 16:04:16.230" />
+                <Interval Name = "Facility-Radar_Site-Sensor-Radar_FOV-To-Satellite-MarocTubsat_27004 AccessIntervals" StartTime = "15 Mar 2024 17:31:43.834" StopTime = "15 Mar 2024 17:45:11.442" />
+                <Interval Name = "Facility-Radar_Site-Sensor-Radar_FOV-To-Satellite-MarocTubsat_27004 AccessIntervals" StartTime = "15 Mar 2024 19:16:59.785" StopTime = "15 Mar 2024 19:21:31.337" />
+                <Interval Name = "Facility-Radar_Site-Sensor-Radar_FOV-To-Satellite-MarocTubsat_27004 AccessIntervals" StartTime = "15 Mar 2024 22:37:42.100" StopTime = "15 Mar 2024 22:42:30.794" />
+                <Interval Name = "Facility-Radar_Site-Sensor-Radar_FOV-To-Satellite-MarocTubsat_27004 AccessIntervals" StartTime = "16 Mar 2024 00:13:43.618" StopTime = "16 Mar 2024 00:27:43.967" />
+                <Interval Name = "Facility-Radar_Site-Sensor-Radar_FOV-To-Satellite-MarocTubsat_27004 AccessIntervals" StartTime = "16 Mar 2024 01:55:09.554" StopTime = "16 Mar 2024 02:11:56.965" />
+                <Interval Name = "Facility-Radar_Site-Sensor-Radar_FOV-To-Satellite-MarocTubsat_27004 AccessIntervals" StartTime = "16 Mar 2024 03:40:31.413" StopTime = "16 Mar 2024 03:55:02.173" />
+            </Row>
+        </ContentView>
+    </Views>
+    <Views Type = "Time">
+        <TimeView FullViewRulerStartTime = "0.000000" FullViewRulerStopTime = "0.000000" GlobalIntervalComp = "AnalysisInterval" GlobalIntervalCompPath = "/Application/STK/Scenario/AzElMask_Volumetrics" GlobalStartOffset = "0.000000" GlobalStartTime = "15 Mar 2024 12:00:00.000" GlobalStopOffset = "0.000000" GlobalStopTime = "16 Mar 2024 12:00:00.000" MaxFullViewTime = "0.000000" MinFullViewTime = "0.000000" Name = "Scenario Analysis Period" ViewportStartTime = "0.000000" ViewportStopTime = "0.000000" />
+    </Views>
+</TimelineLine_Prefs>

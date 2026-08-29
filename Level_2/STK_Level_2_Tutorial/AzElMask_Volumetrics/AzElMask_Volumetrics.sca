@@ -1,0 +1,757 @@
+stk.v.13.0
+WrittenBy    STK_v13.0.0
+BEGIN Access
+    Scenario/AzElMask_Volumetrics/Facility/Radar_Site/Sensor/Radar_FOV
+    Scenario/AzElMask_Volumetrics/Satellite/DlrTubsat_25757
+
+    IsComputed		 Yes
+    SaveComputedData		 Yes
+    ComputationMode		 1
+    UpdateOnReference		 Yes
+    DupIsDifferent		 No
+    UIOrderReversed		 No
+    UITimePeriod		 Object
+    UseLightTimeDelay		 Yes
+    ClockHost		 Base
+    TimeSense		 Receive
+    AberrationType		 Annual
+    TimeDelayConvergence		 5e-05
+    SetMaxStepFromInsts		 Yes
+    MaxTimeStep		 360
+    MinTimeStep		 0.01
+    TimeConvergence		 0.005
+    AbsValueConvergence		 1e-14
+    RelValueConvergence		 1e-08
+    DetectEventsUsingSamplesOnly		 No
+
+    BEGIN ConsideredIntervals
+
+        2024-03-15T12:00:00.000000000 2024-03-16T12:00:00.000000000
+
+    END ConsideredIntervals
+
+    BEGIN AccessIntervals
+
+        2024-03-15T12:18:30.698610559 2024-03-15T12:31:09.836865282
+        2024-03-15T13:55:56.274127066 2024-03-15T14:09:27.256556125
+        2024-03-15T15:38:07.892736148 2024-03-15T15:38:23.919096125
+        2024-03-15T15:39:19.166288423 2024-03-15T15:45:18.881620798
+        2024-03-16T00:20:18.266841083 2024-03-16T00:23:00.786552865
+        2024-03-16T01:53:58.857688466 2024-03-16T02:07:13.237421199
+        2024-03-16T03:32:00.602955172 2024-03-16T03:45:12.712872060
+        2024-03-16T05:11:23.360788442 2024-03-16T05:19:00.681558559
+        2024-03-16T11:30:28.691974644 2024-03-16T11:40:35.171798350
+
+    END AccessIntervals
+
+    BEGIN StageList
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 LineOfSight
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 1
+
+                    BEGIN ConstraintInputTimes
+
+                        2024-03-15T12:00:00.000000000 2024-03-16T12:00:00.000000000
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2024-03-15T12:18:14.039050761 2024-03-15T12:31:12.365512902
+                        2024-03-15T13:55:28.386636117 2024-03-15T14:09:33.197474624
+                        2024-03-15T15:37:26.950098082 2024-03-15T15:45:56.834219451
+                        2024-03-16T00:18:29.946358229 2024-03-16T00:24:02.121377611
+                        2024-03-16T01:53:48.698329156 2024-03-16T02:07:40.726475791
+                        2024-03-16T03:31:56.565405259 2024-03-16T03:45:38.100878465
+                        2024-03-16T05:11:18.421515122 2024-03-16T05:19:36.792324857
+                        2024-03-16T11:30:09.105608108 2024-03-16T11:40:37.253827510
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.17
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 FieldOfView
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 2
+
+                    BEGIN ConstraintInputTimes
+
+                        2024-03-15T12:18:14.039050761 2024-03-15T12:31:12.365512902
+                        2024-03-15T13:55:28.386636117 2024-03-15T14:09:33.197474624
+                        2024-03-15T15:37:26.950098082 2024-03-15T15:45:56.834219451
+                        2024-03-16T00:18:29.946358229 2024-03-16T00:24:02.121377611
+                        2024-03-16T01:53:48.698329156 2024-03-16T02:07:40.726475791
+                        2024-03-16T03:31:56.565405259 2024-03-16T03:45:38.100878465
+                        2024-03-16T05:11:18.421515122 2024-03-16T05:19:36.792324857
+                        2024-03-16T11:30:09.105608108 2024-03-16T11:40:37.253827510
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2024-03-15T12:18:14.039050761 2024-03-15T12:31:12.365512902
+                        2024-03-15T13:55:28.386636117 2024-03-15T14:09:33.197474624
+                        2024-03-15T15:37:26.950098082 2024-03-15T15:45:56.834219451
+                        2024-03-16T00:18:29.946358229 2024-03-16T00:24:02.121377611
+                        2024-03-16T01:53:48.698329156 2024-03-16T02:07:40.726475791
+                        2024-03-16T03:31:56.565405259 2024-03-16T03:45:38.100878465
+                        2024-03-16T05:11:18.421515122 2024-03-16T05:19:36.792324857
+                        2024-03-16T11:30:09.105608108 2024-03-16T11:40:37.253827510
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.068
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 AzElMask
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 3
+
+                    BEGIN ConstraintInputTimes
+
+                        2024-03-15T12:18:14.039050761 2024-03-15T12:31:12.365512902
+                        2024-03-15T13:55:28.386636117 2024-03-15T14:09:33.197474624
+                        2024-03-15T15:37:26.950098082 2024-03-15T15:45:56.834219451
+                        2024-03-16T00:18:29.946358229 2024-03-16T00:24:02.121377611
+                        2024-03-16T01:53:48.698329156 2024-03-16T02:07:40.726475791
+                        2024-03-16T03:31:56.565405259 2024-03-16T03:45:38.100878465
+                        2024-03-16T05:11:18.421515122 2024-03-16T05:19:36.792324857
+                        2024-03-16T11:30:09.105608108 2024-03-16T11:40:37.253827510
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2024-03-15T12:18:30.698610559 2024-03-15T12:31:09.836865282
+                        2024-03-15T13:55:56.274127066 2024-03-15T14:09:27.256556125
+                        2024-03-15T15:38:07.892736148 2024-03-15T15:45:18.881620798
+                        2024-03-16T00:20:18.266841083 2024-03-16T00:23:00.786552865
+                        2024-03-16T01:53:58.857688466 2024-03-16T02:07:13.237421199
+                        2024-03-16T03:32:00.602955172 2024-03-16T03:45:12.712872060
+                        2024-03-16T05:11:23.360788442 2024-03-16T05:19:00.681558559
+                        2024-03-16T11:30:28.691974644 2024-03-16T11:40:35.171798350
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.017
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 SensorAzElMask
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 4
+
+                    BEGIN ConstraintInputTimes
+
+                        2024-03-15T12:18:30.698610559 2024-03-15T12:31:09.836865282
+                        2024-03-15T13:55:56.274127066 2024-03-15T14:09:27.256556125
+                        2024-03-15T15:38:07.892736148 2024-03-15T15:45:18.881620798
+                        2024-03-16T00:20:18.266841083 2024-03-16T00:23:00.786552865
+                        2024-03-16T01:53:58.857688466 2024-03-16T02:07:13.237421199
+                        2024-03-16T03:32:00.602955172 2024-03-16T03:45:12.712872060
+                        2024-03-16T05:11:23.360788442 2024-03-16T05:19:00.681558559
+                        2024-03-16T11:30:28.691974644 2024-03-16T11:40:35.171798350
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2024-03-15T12:18:30.698610559 2024-03-15T12:31:09.836865282
+                        2024-03-15T13:55:56.274127066 2024-03-15T14:09:27.256556125
+                        2024-03-15T15:38:07.892736148 2024-03-15T15:38:23.919096125
+                        2024-03-15T15:39:19.166288423 2024-03-15T15:45:18.881620798
+                        2024-03-16T00:20:18.266841083 2024-03-16T00:23:00.786552865
+                        2024-03-16T01:53:58.857688466 2024-03-16T02:07:13.237421199
+                        2024-03-16T03:32:00.602955172 2024-03-16T03:45:12.712872060
+                        2024-03-16T05:11:23.360788442 2024-03-16T05:19:00.681558559
+                        2024-03-16T11:30:28.691974644 2024-03-16T11:40:35.171798350
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+    END StageList
+
+    Show		 Yes
+    Inherit		 Yes
+    ShowIV		 Yes
+    ShowLineGfx		 Yes
+    ShowHiliteGfx		 Yes
+    LineWidth		 1
+
+    LineStyle		 0
+    BEGIN Crdn
+    END Crdn
+
+END Access
+
+BEGIN Access
+    Scenario/AzElMask_Volumetrics/Facility/Radar_Site/Sensor/Radar_FOV
+    Scenario/AzElMask_Volumetrics/Satellite/Beesat1_35933
+
+    IsComputed		 Yes
+    SaveComputedData		 Yes
+    ComputationMode		 1
+    UpdateOnReference		 Yes
+    DupIsDifferent		 No
+    UIOrderReversed		 No
+    UITimePeriod		 Object
+    UseLightTimeDelay		 Yes
+    ClockHost		 Base
+    TimeSense		 Receive
+    AberrationType		 Annual
+    TimeDelayConvergence		 5e-05
+    SetMaxStepFromInsts		 Yes
+    MaxTimeStep		 360
+    MinTimeStep		 0.01
+    TimeConvergence		 0.005
+    AbsValueConvergence		 1e-14
+    RelValueConvergence		 1e-08
+    DetectEventsUsingSamplesOnly		 No
+
+    BEGIN ConsideredIntervals
+
+        2024-03-15T12:00:00.000000000 2024-03-16T12:00:00.000000000
+
+    END ConsideredIntervals
+
+    BEGIN AccessIntervals
+
+        2024-03-15T19:53:13.061417774 2024-03-15T20:04:00.557227517
+        2024-03-15T21:29:51.500480962 2024-03-15T21:43:26.092444223
+        2024-03-15T23:08:11.039192870 2024-03-15T23:18:29.532133476
+        2024-03-16T05:30:27.304392048 2024-03-16T05:34:44.187975060
+        2024-03-16T07:01:56.875515771 2024-03-16T07:14:25.932746305
+        2024-03-16T08:38:56.534224722 2024-03-16T08:52:17.637786956
+        2024-03-16T10:20:46.315763519 2024-03-16T10:20:54.416433270
+        2024-03-16T10:21:49.637372990 2024-03-16T10:27:39.118637560
+
+    END AccessIntervals
+
+    BEGIN StageList
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 LineOfSight
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 1
+
+                    BEGIN ConstraintInputTimes
+
+                        2024-03-15T12:00:00.000000000 2024-03-16T12:00:00.000000000
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2024-03-15T19:52:47.732649715 2024-03-15T20:04:25.191875426
+                        2024-03-15T21:29:48.109311832 2024-03-15T21:43:51.324142835
+                        2024-03-15T23:08:08.603353113 2024-03-15T23:19:15.954255776
+                        2024-03-16T05:29:08.259213571 2024-03-16T05:34:59.459192407
+                        2024-03-16T07:01:40.174863940 2024-03-16T07:14:28.419025839
+                        2024-03-16T08:38:29.778851082 2024-03-16T08:52:23.596024434
+                        2024-03-16T10:20:04.443891789 2024-03-16T10:28:19.045045722
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.17
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 FieldOfView
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 2
+
+                    BEGIN ConstraintInputTimes
+
+                        2024-03-15T19:52:47.732649715 2024-03-15T20:04:25.191875426
+                        2024-03-15T21:29:48.109311832 2024-03-15T21:43:51.324142835
+                        2024-03-15T23:08:08.603353113 2024-03-15T23:19:15.954255776
+                        2024-03-16T05:29:08.259213571 2024-03-16T05:34:59.459192407
+                        2024-03-16T07:01:40.174863940 2024-03-16T07:14:28.419025839
+                        2024-03-16T08:38:29.778851082 2024-03-16T08:52:23.596024434
+                        2024-03-16T10:20:04.443891789 2024-03-16T10:28:19.045045722
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2024-03-15T19:52:47.732649715 2024-03-15T20:04:25.191875426
+                        2024-03-15T21:29:48.109311832 2024-03-15T21:43:51.324142835
+                        2024-03-15T23:08:08.603353113 2024-03-15T23:19:15.954255776
+                        2024-03-16T05:29:08.259213571 2024-03-16T05:34:59.459192407
+                        2024-03-16T07:01:40.174863940 2024-03-16T07:14:28.419025839
+                        2024-03-16T08:38:29.778851082 2024-03-16T08:52:23.596024434
+                        2024-03-16T10:20:04.443891789 2024-03-16T10:28:19.045045722
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.068
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 AzElMask
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 3
+
+                    BEGIN ConstraintInputTimes
+
+                        2024-03-15T19:52:47.732649715 2024-03-15T20:04:25.191875426
+                        2024-03-15T21:29:48.109311832 2024-03-15T21:43:51.324142835
+                        2024-03-15T23:08:08.603353113 2024-03-15T23:19:15.954255776
+                        2024-03-16T05:29:08.259213571 2024-03-16T05:34:59.459192407
+                        2024-03-16T07:01:40.174863940 2024-03-16T07:14:28.419025839
+                        2024-03-16T08:38:29.778851082 2024-03-16T08:52:23.596024434
+                        2024-03-16T10:20:04.443891789 2024-03-16T10:28:19.045045722
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2024-03-15T19:53:13.061417774 2024-03-15T20:04:00.557227517
+                        2024-03-15T21:29:51.500480962 2024-03-15T21:43:26.092444223
+                        2024-03-15T23:08:11.039192870 2024-03-15T23:18:47.247514373
+                        2024-03-16T05:30:27.304392048 2024-03-16T05:34:44.187975060
+                        2024-03-16T07:01:56.875515771 2024-03-16T07:14:25.932746305
+                        2024-03-16T08:38:56.534224722 2024-03-16T08:52:17.637786956
+                        2024-03-16T10:20:46.315763519 2024-03-16T10:27:39.118637560
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.017
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 SensorAzElMask
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 4
+
+                    BEGIN ConstraintInputTimes
+
+                        2024-03-15T19:53:13.061417774 2024-03-15T20:04:00.557227517
+                        2024-03-15T21:29:51.500480962 2024-03-15T21:43:26.092444223
+                        2024-03-15T23:08:11.039192870 2024-03-15T23:18:47.247514373
+                        2024-03-16T05:30:27.304392048 2024-03-16T05:34:44.187975060
+                        2024-03-16T07:01:56.875515771 2024-03-16T07:14:25.932746305
+                        2024-03-16T08:38:56.534224722 2024-03-16T08:52:17.637786956
+                        2024-03-16T10:20:46.315763519 2024-03-16T10:27:39.118637560
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2024-03-15T19:53:13.061417774 2024-03-15T20:04:00.557227517
+                        2024-03-15T21:29:51.500480962 2024-03-15T21:43:26.092444223
+                        2024-03-15T23:08:11.039192870 2024-03-15T23:18:29.532133476
+                        2024-03-16T05:30:27.304392048 2024-03-16T05:34:44.187975060
+                        2024-03-16T07:01:56.875515771 2024-03-16T07:14:25.932746305
+                        2024-03-16T08:38:56.534224722 2024-03-16T08:52:17.637786956
+                        2024-03-16T10:20:46.315763519 2024-03-16T10:20:54.416433270
+                        2024-03-16T10:21:49.637372990 2024-03-16T10:27:39.118637560
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+    END StageList
+
+    Show		 Yes
+    Inherit		 Yes
+    ShowIV		 Yes
+    ShowLineGfx		 Yes
+    ShowHiliteGfx		 Yes
+    LineWidth		 1
+
+    LineStyle		 0
+    BEGIN Crdn
+    END Crdn
+
+END Access
+
+BEGIN Access
+    Scenario/AzElMask_Volumetrics/Facility/Radar_Site/Sensor/Radar_FOV
+    Scenario/AzElMask_Volumetrics/Satellite/MarocTubsat_27004
+
+    IsComputed		 Yes
+    SaveComputedData		 Yes
+    ComputationMode		 1
+    UpdateOnReference		 Yes
+    DupIsDifferent		 No
+    UIOrderReversed		 No
+    UITimePeriod		 Object
+    UseLightTimeDelay		 Yes
+    ClockHost		 Base
+    TimeSense		 Receive
+    AberrationType		 Annual
+    TimeDelayConvergence		 5e-05
+    SetMaxStepFromInsts		 Yes
+    MaxTimeStep		 360
+    MinTimeStep		 0.01
+    TimeConvergence		 0.005
+    AbsValueConvergence		 1e-14
+    RelValueConvergence		 1e-08
+    DetectEventsUsingSamplesOnly		 No
+
+    BEGIN ConsideredIntervals
+
+        2024-03-15T12:00:00.000000000 2024-03-16T12:00:00.000000000
+
+    END ConsideredIntervals
+
+    BEGIN AccessIntervals
+
+        2024-03-15T14:04:20.876075114 2024-03-15T14:19:05.912048467
+        2024-03-15T15:47:28.247631424 2024-03-15T16:04:16.230179634
+        2024-03-15T17:31:43.834060560 2024-03-15T17:45:11.441584067
+        2024-03-15T19:16:59.784745289 2024-03-15T19:21:31.337452634
+        2024-03-15T22:37:42.100153637 2024-03-15T22:42:30.793736875
+        2024-03-16T00:13:43.618345596 2024-03-16T00:27:43.967416042
+        2024-03-16T01:55:09.554435373 2024-03-16T02:11:56.964857945
+        2024-03-16T03:40:31.413216411 2024-03-16T03:55:02.172855748
+
+    END AccessIntervals
+
+    BEGIN StageList
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 LineOfSight
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 1
+
+                    BEGIN ConstraintInputTimes
+
+                        2024-03-15T12:00:00.000000000 2024-03-16T12:00:00.000000000
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2024-03-15T14:04:03.590383601 2024-03-15T14:19:35.131337346
+                        2024-03-15T15:47:25.026501076 2024-03-15T16:04:41.352158446
+                        2024-03-15T17:31:40.352546455 2024-03-15T17:45:43.370003151
+                        2024-03-15T19:16:51.632183835 2024-03-15T19:22:37.566040771
+                        2024-03-15T22:36:19.388010195 2024-03-15T22:42:41.474574316
+                        2024-03-16T00:13:28.011864095 2024-03-16T00:27:46.965195168
+                        2024-03-16T01:54:40.877855604 2024-03-16T02:12:00.474786381
+                        2024-03-16T03:40:00.496679047 2024-03-16T03:55:17.730999938
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.17
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 FieldOfView
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 2
+
+                    BEGIN ConstraintInputTimes
+
+                        2024-03-15T14:04:03.590383601 2024-03-15T14:19:35.131337346
+                        2024-03-15T15:47:25.026501076 2024-03-15T16:04:41.352158446
+                        2024-03-15T17:31:40.352546455 2024-03-15T17:45:43.370003151
+                        2024-03-15T19:16:51.632183835 2024-03-15T19:22:37.566040771
+                        2024-03-15T22:36:19.388010195 2024-03-15T22:42:41.474574316
+                        2024-03-16T00:13:28.011864095 2024-03-16T00:27:46.965195168
+                        2024-03-16T01:54:40.877855604 2024-03-16T02:12:00.474786381
+                        2024-03-16T03:40:00.496679047 2024-03-16T03:55:17.730999938
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2024-03-15T14:04:03.590383601 2024-03-15T14:19:35.131337346
+                        2024-03-15T15:47:25.026501076 2024-03-15T16:04:41.352158446
+                        2024-03-15T17:31:40.352546455 2024-03-15T17:45:43.370003151
+                        2024-03-15T19:16:51.632183835 2024-03-15T19:22:37.566040771
+                        2024-03-15T22:36:19.388010195 2024-03-15T22:42:41.474574316
+                        2024-03-16T00:13:28.011864095 2024-03-16T00:27:46.965195168
+                        2024-03-16T01:54:40.877855604 2024-03-16T02:12:00.474786381
+                        2024-03-16T03:40:00.496679047 2024-03-16T03:55:17.730999938
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.068
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 AzElMask
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 3
+
+                    BEGIN ConstraintInputTimes
+
+                        2024-03-15T14:04:03.590383601 2024-03-15T14:19:35.131337346
+                        2024-03-15T15:47:25.026501076 2024-03-15T16:04:41.352158446
+                        2024-03-15T17:31:40.352546455 2024-03-15T17:45:43.370003151
+                        2024-03-15T19:16:51.632183835 2024-03-15T19:22:37.566040771
+                        2024-03-15T22:36:19.388010195 2024-03-15T22:42:41.474574316
+                        2024-03-16T00:13:28.011864095 2024-03-16T00:27:46.965195168
+                        2024-03-16T01:54:40.877855604 2024-03-16T02:12:00.474786381
+                        2024-03-16T03:40:00.496679047 2024-03-16T03:55:17.730999938
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2024-03-15T14:04:20.876075114 2024-03-15T14:19:05.912048467
+                        2024-03-15T15:47:28.247631424 2024-03-15T16:04:16.230179634
+                        2024-03-15T17:31:43.834060560 2024-03-15T17:45:13.030848202
+                        2024-03-15T19:16:59.784745289 2024-03-15T19:21:31.337452634
+                        2024-03-15T22:37:42.100153637 2024-03-15T22:42:30.793736875
+                        2024-03-16T00:13:43.618345596 2024-03-16T00:27:43.967416042
+                        2024-03-16T01:55:09.554435373 2024-03-16T02:11:56.964857945
+                        2024-03-16T03:40:31.413216411 2024-03-16T03:55:02.172855748
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.017
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 SensorAzElMask
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 4
+
+                    BEGIN ConstraintInputTimes
+
+                        2024-03-15T14:04:20.876075114 2024-03-15T14:19:05.912048467
+                        2024-03-15T15:47:28.247631424 2024-03-15T16:04:16.230179634
+                        2024-03-15T17:31:43.834060560 2024-03-15T17:45:13.030848202
+                        2024-03-15T19:16:59.784745289 2024-03-15T19:21:31.337452634
+                        2024-03-15T22:37:42.100153637 2024-03-15T22:42:30.793736875
+                        2024-03-16T00:13:43.618345596 2024-03-16T00:27:43.967416042
+                        2024-03-16T01:55:09.554435373 2024-03-16T02:11:56.964857945
+                        2024-03-16T03:40:31.413216411 2024-03-16T03:55:02.172855748
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2024-03-15T14:04:20.876075114 2024-03-15T14:19:05.912048467
+                        2024-03-15T15:47:28.247631424 2024-03-15T16:04:16.230179634
+                        2024-03-15T17:31:43.834060560 2024-03-15T17:45:11.441584067
+                        2024-03-15T19:16:59.784745289 2024-03-15T19:21:31.337452634
+                        2024-03-15T22:37:42.100153637 2024-03-15T22:42:30.793736875
+                        2024-03-16T00:13:43.618345596 2024-03-16T00:27:43.967416042
+                        2024-03-16T01:55:09.554435373 2024-03-16T02:11:56.964857945
+                        2024-03-16T03:40:31.413216411 2024-03-16T03:55:02.172855748
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+    END StageList
+
+    Show		 Yes
+    Inherit		 Yes
+    ShowIV		 Yes
+    ShowLineGfx		 Yes
+    ShowHiliteGfx		 Yes
+    LineWidth		 1
+
+    LineStyle		 0
+    BEGIN Crdn
+    END Crdn
+
+END Access
+
