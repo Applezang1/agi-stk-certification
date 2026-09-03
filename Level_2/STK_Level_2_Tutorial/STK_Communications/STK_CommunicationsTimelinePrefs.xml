@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" standalone = "yes"?>
+<TimelineLine_Prefs STK_version = "13.0.0">
+    <Views Type = "Content">
+        <ContentView Name = "Scenario Availability">
+            <Row ClassName = "Scenario" ComponentName = "AvailabilityIntervals" DisplayName = "STK_Communications AvailabilityIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "/Application/STK/Scenario/STK_Communications" Type = "IntervalList">
+                <Interval Name = "STK_Communications AvailabilityIntervals" StartTime = "1 Aug 2022 18:00:00.000" StopTime = "2 Aug 2022 18:00:00.000" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Facility-Communication_Site-Receiver-Downlink_Rx-To-Satellite-GEO_Sat_West-Transmitter-Downlink_Tx AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/STK_Communications/Facility/Communication_Site/Receiver/Downlink_Rx;/Application/STK/Scenario/STK_Communications/Satellite/GEO_Sat_West/Transmitter/Downlink_Tx" Type = "IntervalList">
+                <Interval Name = "Facility-Communication_Site-Receiver-Downlink_Rx-To-Satellite-GEO_Sat_West-Transmitter-Downlink_Tx AccessIntervals" StartTime = "1 Aug 2022 18:00:00.000" StopTime = "2 Aug 2022 18:00:00.000" />
+            </Row>
+        </ContentView>
+    </Views>
+    <Views Type = "Time">
+        <TimeView FullViewRulerStartTime = "0.000000" FullViewRulerStopTime = "0.000000" GlobalIntervalComp = "AnalysisInterval" GlobalIntervalCompPath = "/Application/STK/Scenario/STK_Communications" GlobalStartOffset = "0.000000" GlobalStartTime = "1 Aug 2022 18:00:00.000" GlobalStopOffset = "0.000000" GlobalStopTime = "2 Aug 2022 18:00:00.000" MaxFullViewTime = "0.000000" MinFullViewTime = "0.000000" Name = "Scenario Analysis Period" ViewportStartTime = "0.000000" ViewportStopTime = "0.000000" />
+    </Views>
+</TimelineLine_Prefs>

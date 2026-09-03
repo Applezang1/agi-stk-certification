@@ -1,0 +1,101 @@
+stk.v.13.0
+WrittenBy    STK_v13.0.0
+
+BEGIN AreaTarget
+
+    Name		 Skopje_Extents
+
+    BEGIN CentroidPosition
+
+        CentralBody		 Earth
+        AutoCentroid		 On
+        EcfLatitude		  4.1997400439836234e+01
+        EcfLongitude		  2.1425699999999999e+01
+        EcfAltitude		  0.0000000000000000e+00
+        UseTerrainInfo		 On
+        DisplayCoords		 Geodetic
+
+        AreaType		 Pattern
+        NumberOfPolygonPts		 5
+
+        BEGIN PolygonPoints
+
+             4.1990400000000001e+01  2.1435700000000001e+01  0.0000000000000000e+00
+             4.1990400000000001e+01  2.1415700000000001e+01  0.0000000000000000e+00
+             4.2004399999999997e+01  2.1415700000000001e+01  0.0000000000000000e+00
+             4.2004399999999997e+01  2.1435700000000001e+01  0.0000000000000000e+00
+             4.1990400000000001e+01  2.1435700000000001e+01  0.0000000000000000e+00
+
+        END PolygonPoints
+
+        BoundaryType		 GreatArc
+        Granularity		 0.008727
+
+    END CentroidPosition
+
+    BEGIN Extensions
+
+        BEGIN ExternData
+        END ExternData
+
+        BEGIN ADFFileData
+        END ADFFileData
+
+        BEGIN AccessConstraints
+            LineOfSight IncludeIntervals
+
+            UsePreferredMaxStep No
+            PreferredMaxStep 360
+        END AccessConstraints
+
+        BEGIN Desc
+        END Desc
+
+        BEGIN Crdn
+        END Crdn
+
+        BEGIN ChainAnalysisOptions
+            ConstantDelay		  0.0000000000000000e+00
+            ConstantDataRate		  1.0000000000000000e+06
+        END ChainAnalysisOptions
+
+        BEGIN Graphics
+
+            BEGIN Attributes
+
+                MarkerColor		 #c40000
+                PolygonColor		 #c40000
+                LabelColor		 #c40000
+                LineStyle		 0
+                LineWidth		 1
+                FillTranslucency		 0.5
+                MarkerStyle		 0
+                FontStyle		 0
+
+            END Attributes
+
+            BEGIN Graphics
+
+                ShowGfx		 Off
+                Inherit		 On
+                ShowCentroid		 On
+                ShowBoundaryPts		 Off
+                ShowLabel		 On
+                Filled		 Off
+                SymmetricFill		 Off
+                ShowBoundingRect		 Off
+
+            END Graphics
+
+            BEGIN DisplayTimes
+                DisplayType		 AlwaysOn
+            END DisplayTimes
+        END Graphics
+
+        BEGIN VO
+        END VO
+
+    END Extensions
+
+END AreaTarget
+

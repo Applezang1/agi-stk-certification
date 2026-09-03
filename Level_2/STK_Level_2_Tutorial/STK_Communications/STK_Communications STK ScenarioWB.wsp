@@ -1,0 +1,123 @@
+[Analytical Graphics, Inc]
+WorkbookVersion=9.0
+Title=STK_Communications
+Description=
+ApplicationVersion=13.0.0
+Scenario=YES
+ActiveMDIState=FALSE
+[WorkState_v1_2]
+ptn_Child1=Frames
+[WorkState_v1_2.Frames]
+ptn_Child1=MainFrame
+ptn_Child2=ChildFrames
+[WorkState_v1_2.Frames.MainFrame]
+WindowPlacement=MCAAAAAACAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAPPPPPPPPPPPPPPPPLEAAAAAACAAAAAAAJKEAAAAAGDDAAAAA
+Title=STK_Communications - STK 13 - 2D Graphics 1 - Earth
+[WorkState_v1_2.Frames.ChildFrames]
+ptn_Child1=Document-0
+ptn_Child2=Document-1
+ptn_Child3=Document-2
+ptn_Child4=Document-3
+ptn_Child5=Document-4
+[WorkState_v1_2.Frames.ChildFrames.Document-0]
+ptn_Child1=ViewFrame-0
+[WorkState_v1_2.Frames.ChildFrames.Document-0.ViewFrame-0]
+DocPathName=C:\Program Files\AGI\STK_ODTK 13\bin\AgUi3DGfxView13.AgUiPi3DGfxView.1
+DocumentString=AgUi3DGfxView.AgUiPi3DGfxView.1
+DocTemplateIndex=0
+WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPGPPPPPPPAOPPPPPPJCDAAAAAAAAAAAAACFGAAAAALKCAAAAA
+IsActiveChildFrame=False
+IsFrameVisible=True
+ptn_Child1=AGI Custom Node Data
+[WorkState_v1_2.Frames.ChildFrames.Document-0.ViewFrame-0.AGI Custom Node Data]
+MapID=1
+SceneType=1
+[WorkState_v1_2.Frames.ChildFrames.Document-1]
+ptn_Child1=ViewFrame-0
+[WorkState_v1_2.Frames.ChildFrames.Document-1.ViewFrame-0]
+DocPathName=C:\Program Files\AGI\STK_ODTK 13\bin\AgUi2DGfxView13.AgUiPi2DGfxView.1
+DocumentString=AgUi2DGfxView.AgUiPi2DGfxView.1
+DocTemplateIndex=0
+WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPAAAAAAAAAAAAAAAAJCDAAAAALKCAAAAA
+IsActiveChildFrame=True
+IsFrameVisible=True
+ptn_Child1=AGI Custom Node Data
+[WorkState_v1_2.Frames.ChildFrames.Document-1.ViewFrame-0.AGI Custom Node Data]
+MapID=1
+[WorkState_v1_2.Frames.ChildFrames.Document-2]
+ptn_Child1=ViewFrame-0
+[WorkState_v1_2.Frames.ChildFrames.Document-2.ViewFrame-0]
+DocPathName=C:\Program Files\AGI\STK_ODTK 13\bin\AgUiAttrBrowser13.AgUiPiAttrBrowser.1
+DocumentString=AgUiAttrBrowser.AgUiPiAttrBrowser.1
+DocTemplateIndex=0
+WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPAAAAAAAAAAAAAAAANBBAAAAALEBAAAAA
+IsActiveChildFrame=False
+IsFrameVisible=True
+ProfUISBarID=63000
+ptn_Child1=AGI Custom Node Data
+[WorkState_v1_2.Frames.ChildFrames.Document-2.ViewFrame-0.AGI Custom Node Data]
+objectExpandedState0=/Application/STK/Scenario/STK_Communications/AreaTarget/Skopje_Extents:TRUE
+objectExpandedState1=/Application/STK/Scenario/STK_Communications:TRUE
+objectExpandedState10=/Application/STK/Scenario/STK_Communications/Place/Radar_Site:TRUE
+objectExpandedState11=/Application/STK/Scenario/STK_Communications/Place/Raisting:TRUE
+objectExpandedState12=/Application/STK/Scenario/STK_Communications/Place/Raisting/Sensor/DL_Servo:TRUE
+objectExpandedState13=/Application/STK/Scenario/STK_Communications/Place/Skopje_CommSite:TRUE
+objectExpandedState14=/Application/STK/Scenario/STK_Communications/Satellite/GEO_Sat_East:TRUE
+objectExpandedState15=/Application/STK/Scenario/STK_Communications/Satellite/GEO_Sat_West:TRUE
+objectExpandedState16=/Application/STK/Scenario/STK_Communications/Satellite/LEO_Sat:TRUE
+objectExpandedState17=/Application/STK/Scenario/STK_Communications/Satellite/GEO_Sat_West/Transmitter/Downlink_Tx:TRUE
+objectExpandedState18=/Application/STK/Scenario/STK_Communications/Facility/Communication_Site/Receiver/Receiver1:TRUE
+objectExpandedState19=/Application/STK/Scenario/STK_Communications/Facility/Communication_Site/Receiver/Downlink_Rx:TRUE
+objectExpandedState2=/Application/STK/Scenario/STK_Communications/Aircraft/Aircraft:TRUE
+objectExpandedState3=/Application/STK/Scenario/STK_Communications/Facility/Communication_Site:TRUE
+objectExpandedState4=/Application/STK/Scenario/STK_Communications/Aircraft/Radar_TestPlane:TRUE
+objectExpandedState5=/Application/STK/Scenario/STK_Communications/Place/Modesto_Tower:TRUE
+objectExpandedState6=/Application/STK/Scenario/STK_Communications/Facility/Communication_Site/Sensor/UL_Servo:TRUE
+objectExpandedState7=/Application/STK/Scenario/STK_Communications/Satellite/GEO_Sat_West/Transmitter/Transmitter1:TRUE
+objectExpandedState8=/Application/STK/Scenario/STK_Communications/Place/GenFox_Tower:TRUE
+objectExpandedState9=/Application/STK/Scenario/STK_Communications/Place/Meadows_Tower:TRUE
+[WorkState_v1_2.Frames.ChildFrames.Document-3]
+ptn_Child1=ViewFrame-0
+[WorkState_v1_2.Frames.ChildFrames.Document-3.ViewFrame-0]
+DocPathName=C:\Program Files\AGI\STK_ODTK 13\bin\AgUi3DGxToolPlugins13.AgUi3dGlobeManager.1
+DocumentString=AgUi3DGxToolPlugins.AgUi3dGlobeManager.1
+DocTemplateIndex=0
+WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPAAAAAAAAAAAAAAAANBBAAAAAPEBAAAAA
+IsActiveChildFrame=False
+IsFrameVisible=True
+ProfUISBarID=63002
+ptn_Child1=AGI Custom Node Data
+[WorkState_v1_2.Frames.ChildFrames.Document-3.ViewFrame-0.AGI Custom Node Data]
+ActiveSceneID=1
+[WorkState_v1_2.Frames.ChildFrames.Document-4]
+ptn_Child1=ViewFrame-0
+[WorkState_v1_2.Frames.ChildFrames.Document-4.ViewFrame-0]
+DocPathName=C:\Program Files\AGI\STK_ODTK 13\bin\AgUiTimelineView13.AgUiPiTimelineView.1
+DocumentString=AgUiTimelineView.AgUiPiTimelineView.1
+DocTemplateIndex=0
+WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPAAAAAAAAAAAAAAAAAIHAAAAADKAAAAAA
+IsActiveChildFrame=False
+IsFrameVisible=True
+ProfUISBarID=63001
+ptn_Child1=AGI Custom Node Data
+[WorkState_v1_2.Frames.ChildFrames.Document-4.ViewFrame-0.AGI Custom Node Data]
+ComponentWellWidth=200.000000000000
+CurrentContentView=Scenario Availability
+CurrentTimeView=Scenario Analysis Period
+FontSize=10.000000000000
+FullViewScaleHeight=22.000000000000
+LabelFontSize=11.000000000000
+RowHeight=20.090909090909
+ShowComponents=True
+ShowFullViewBar=True
+ShowFullViewRuler=True
+ShowGlobalScale=True
+ShowGlobalTimeline=True
+ShowIntervalLabels=True
+ShowStartTime=False
+ShowStopTime=False
+ShowToolbar=True
+ShowViewportRuler=True
+Theme=Default
+Title=Timeline 1
+ViewportScaleHeight=22.000000000000
