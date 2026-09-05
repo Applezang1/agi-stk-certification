@@ -1,0 +1,106 @@
+[Analytical Graphics, Inc]
+WorkbookVersion=9.0
+Title=STK_ModelCenter
+Description=
+ApplicationVersion=13.0.0
+Scenario=YES
+ActiveMDIState=FALSE
+[WorkState_v1_2]
+ptn_Child1=Frames
+[WorkState_v1_2.Frames]
+ptn_Child1=MainFrame
+ptn_Child2=ChildFrames
+[WorkState_v1_2.Frames.MainFrame]
+WindowPlacement=MCAAAAAACAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAPPPPPPPPPPPPPPPPLEAAAAAACAAAAAAALJFAAAAAGDDAAAAA
+Title=STK_ModelCenter - STK 13 - 3D Graphics 1 - Earth
+[WorkState_v1_2.Frames.ChildFrames]
+ptn_Child1=Document-0
+ptn_Child2=Document-1
+ptn_Child3=Document-2
+[WorkState_v1_2.Frames.ChildFrames.Document-0]
+ptn_Child1=ViewFrame-0
+[WorkState_v1_2.Frames.ChildFrames.Document-0.ViewFrame-0]
+DocPathName=C:\Program Files\AGI\STK_ODTK 13\bin\AgUi3DGfxView13.AgUiPi3DGfxView.1
+DocumentString=AgUi3DGfxView.AgUiPi3DGfxView.1
+DocTemplateIndex=0
+WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPGPPPPPPPAOPPPPPPKEDAAAAAAAAAAAAAEJGAAAAALGDAAAAA
+IsActiveChildFrame=True
+IsFrameVisible=True
+ptn_Child1=AGI Custom Node Data
+[WorkState_v1_2.Frames.ChildFrames.Document-0.ViewFrame-0.AGI Custom Node Data]
+MapID=1
+SceneType=1
+[WorkState_v1_2.Frames.ChildFrames.Document-1]
+ptn_Child1=ViewFrame-0
+[WorkState_v1_2.Frames.ChildFrames.Document-1.ViewFrame-0]
+DocPathName=C:\Program Files\AGI\STK_ODTK 13\bin\AgUi2DGfxView13.AgUiPi2DGfxView.1
+DocumentString=AgUi2DGfxView.AgUiPi2DGfxView.1
+DocTemplateIndex=0
+WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPIPPPPPPPCOPPPPPPAAAAAAAAAAAAAAAAKEDAAAAALGDAAAAA
+IsActiveChildFrame=False
+IsFrameVisible=True
+ptn_Child1=AGI Custom Node Data
+[WorkState_v1_2.Frames.ChildFrames.Document-1.ViewFrame-0.AGI Custom Node Data]
+MapID=1
+[WorkState_v1_2.Frames.ChildFrames.Document-2]
+ptn_Child1=ViewFrame-0
+[WorkState_v1_2.Frames.ChildFrames.Document-2.ViewFrame-0]
+DocPathName=C:\Program Files\AGI\STK_ODTK 13\bin\AgUiAttrBrowser13.AgUiPiAttrBrowser.1
+DocumentString=AgUiAttrBrowser.AgUiPiAttrBrowser.1
+DocTemplateIndex=0
+WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPAAAAAAAAAAAAAAAALNAAAAAAHHDAAAAA
+IsActiveChildFrame=False
+IsFrameVisible=True
+ProfUISBarID=63000
+ptn_Child1=AGI Custom Node Data
+[WorkState_v1_2.Frames.ChildFrames.Document-2.ViewFrame-0.AGI Custom Node Data]
+objectExpandedState0=/Application/STK/Scenario/STK_AnalysisWorkbench/Facility/Kaena_Point_Radar_STDN_KPTQ:TRUE
+objectExpandedState1=/Application/STK/Scenario/STK_Coverage/Satellite/Circ_Sat/Sensor/Sensor2:TRUE
+objectExpandedState10=/Application/STK/Scenario/STK_Coverage/Satellite/Sun_Sat:TRUE
+objectExpandedState11=/Application/STK/Scenario/STK_Coverage/Satellite/Repeat_Sat/Sensor/Sensor1:TRUE
+objectExpandedState12=/Application/STK/Scenario/STK_Coverage/Satellite/Sun_Sat/Sensor/Sensor3:TRUE
+objectExpandedState13=/Application/STK/Scenario/STK_Coverage/Satellite/Circ_Sat/Sensor/Circ_Sens:TRUE
+objectExpandedState14=/Application/STK/Scenario/STK_ModelCenter/CoverageDefinition/Global_Grid/FigureOfMerit/Simple_Cov:TRUE
+objectExpandedState15=/Application/STK/Scenario/STK_ModelCenter/Satellite/MySat/Sensor/Camera_View:TRUE
+objectExpandedState16=/Application/STK/Scenario/STK_Coverage/Satellite/Repeat_Sat/Sensor/Repeat_Sens:TRUE
+objectExpandedState17=/Application/STK/Scenario/STK_Coverage/CoverageDefinition/Country_Cov:TRUE
+objectExpandedState18=/Application/STK/Scenario/STK_Coverage/Satellite/Sun_Sat/Sensor/Sun_Sens:TRUE
+objectExpandedState19=/Application/STK/Scenario/STK_Coverage/CoverageDefinition/World_Cov/FigureOfMerit/Num_Access:TRUE
+objectExpandedState2=/Application/STK/Scenario/STK_AnalysisWorkbench:TRUE
+objectExpandedState20=/Application/STK/Scenario/STK_Coverage/CoverageDefinition/CoverageDefinition1:TRUE
+objectExpandedState21=/Application/STK/Scenario/STK_Coverage/CoverageDefinition/World_Cov:TRUE
+objectExpandedState22=/Application/STK/Scenario/STK_Coverage/CoverageDefinition/World_Cov/FigureOfMerit/FigureOfMerit1:TRUE
+objectExpandedState23=/Application/STK/Scenario/STK_Coverage/Target/Constraint_Template:TRUE
+objectExpandedState24=/Application/STK/Scenario/STK_Coverage/CoverageDefinition/World_Cov/FigureOfMerit/Simple_Cov:TRUE
+objectExpandedState25=/Application/STK/Scenario/STK_ModelCenter/CoverageDefinition/CoverageDefinition3:TRUE
+objectExpandedState26=/Application/STK/Scenario/AzElMask_Volumetrics/Facility/Radar_Site/Sensor/Sensor3:TRUE
+objectExpandedState27=/Application/STK/Scenario/STK_Coverage/Target/Target1:TRUE
+objectExpandedState28=/Application/STK/Scenario/STK_Coverage/CoverageDefinition/World_Cov/FigureOfMerit/FigureOfMerit2:TRUE
+objectExpandedState29=/Application/STK/Scenario/STK_Coverage/CoverageDefinition/CoverageDefinition2:TRUE
+objectExpandedState3=/Application/STK/Scenario/STK_AnalysisWorkbench/Satellite/GEO_Sat:TRUE
+objectExpandedState30=/Application/STK/Scenario/STK_Coverage/AreaTarget/Canada:TRUE
+objectExpandedState31=/Application/STK/Scenario/AzElMask_Volumetrics/Satellite/Beesat1_35933:TRUE
+objectExpandedState32=/Application/STK/Scenario/STK_Coverage/AreaTarget/United_States_of_America:TRUE
+objectExpandedState33=/Application/STK/Scenario/STK_Coverage/CoverageDefinition/Country_Cov/FigureOfMerit/FigureOfMerit3:TRUE
+objectExpandedState34=/Application/STK/Scenario/STK_Coverage/CoverageDefinition/Country_Cov/FigureOfMerit/Cov_Time:TRUE
+objectExpandedState35=/Application/STK/Scenario/AzElMask_Volumetrics:TRUE
+objectExpandedState36=/Application/STK/Scenario/AzElMask_Volumetrics/Facility/Facility1:TRUE
+objectExpandedState37=/Application/STK/Scenario/AzElMask_Volumetrics/Facility/Radar_Site:TRUE
+objectExpandedState38=/Application/STK/Scenario/AzElMask_Volumetrics/Satellite/DlrTubsat_25757:TRUE
+objectExpandedState39=/Application/STK/Scenario/AzElMask_Volumetrics/Facility/Radar_Site/Sensor/Radar_FOV:TRUE
+objectExpandedState4=/Application/STK/Scenario/STK_ModelCenter:TRUE
+objectExpandedState40=/Application/STK/Scenario/AzElMask_Volumetrics/Satellite/MarocTubsat_27004:TRUE
+objectExpandedState41=/Application/STK/Scenario/AzElMask_Volumetrics/Facility/Facility2:TRUE
+objectExpandedState42=/Application/STK/Scenario/AzElMask_Volumetrics/Facility/Comm_Radome:TRUE
+objectExpandedState43=/Application/STK/Scenario/AzElMask_Volumetrics/AreaTarget/OpsArea:TRUE
+objectExpandedState44=/Application/STK/Scenario/AzElMask_Volumetrics/Volumetric/Volumetric1:TRUE
+objectExpandedState45=/Application/STK/Scenario/STK_ModelCenter/Satellite/MySat:TRUE
+objectExpandedState46=/Application/STK/Scenario/STK_ModelCenter/Satellite/MySat/Sensor/Sensor4:TRUE
+objectExpandedState47=/Application/STK/Scenario/STK_ModelCenter/Satellite/Satellite5:TRUE
+objectExpandedState48=/Application/STK/Scenario/STK_ModelCenter/CoverageDefinition/Global_Grid:TRUE
+objectExpandedState49=/Application/STK/Scenario/STK_ModelCenter/CoverageDefinition/Global_Grid/FigureOfMerit/FigureOfMerit4:TRUE
+objectExpandedState5=/Application/STK/Scenario/STK_AnalysisWorkbench/Facility/Kaena_Point_Radar_STDN_KPTQ/Sensor/Sensor1:TRUE
+objectExpandedState6=/Application/STK/Scenario/STK_AnalysisWorkbench/Facility/Kaena_Point_Radar_STDN_KPTQ/Sensor/Tracking_Sensor:TRUE
+objectExpandedState7=/Application/STK/Scenario/STK_Coverage/Satellite/Circ_Sat:TRUE
+objectExpandedState8=/Application/STK/Scenario/STK_Coverage:TRUE
+objectExpandedState9=/Application/STK/Scenario/STK_Coverage/Satellite/Repeat_Sat:TRUE
