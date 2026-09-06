@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" standalone = "yes"?>
+<TimelineLine_Prefs STK_version = "13.0.0">
+    <Views Type = "Content">
+        <ContentView Name = "Scenario Availability">
+            <Row ClassName = "Scenario" ComponentName = "AvailabilityIntervals" DisplayName = "STK_Radar AvailabilityIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "/Application/STK/Scenario/STK_Radar" Type = "IntervalList">
+                <Interval Name = "STK_Radar AvailabilityIntervals" StartTime = "2 Jul 2026 03:00:00.000" StopTime = "2 Jul 2026 03:30:00.000" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Place-Radar_Site-Sensor-Servo_System-To-Aircraft-Target_Acft AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/STK_Radar/Place/Radar_Site/Sensor/Servo_System;/Application/STK/Scenario/STK_Radar/Aircraft/Target_Acft" Type = "IntervalList">
+                <Interval Name = "Place-Radar_Site-Sensor-Servo_System-To-Aircraft-Target_Acft AccessIntervals" StartTime = "2 Jul 2026 03:00:00.000" StopTime = "2 Jul 2026 03:14:50.422" />
+                <Interval Name = "Place-Radar_Site-Sensor-Servo_System-To-Aircraft-Target_Acft AccessIntervals" StartTime = "2 Jul 2026 03:17:12.744" StopTime = "2 Jul 2026 03:32:56.269" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Place-Radar_Site-Sensor-Servo_System-Radar-ASR-To-Aircraft-Target_Acft AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/STK_Radar/Place/Radar_Site/Sensor/Servo_System/Radar/ASR;/Application/STK/Scenario/STK_Radar/Aircraft/Target_Acft" Type = "IntervalList">
+                <Interval Name = "Place-Radar_Site-Sensor-Servo_System-Radar-ASR-To-Aircraft-Target_Acft AccessIntervals" StartTime = "2 Jul 2026 03:00:00.000" StopTime = "2 Jul 2026 03:14:50.422" />
+                <Interval Name = "Place-Radar_Site-Sensor-Servo_System-Radar-ASR-To-Aircraft-Target_Acft AccessIntervals" StartTime = "2 Jul 2026 03:17:12.744" StopTime = "2 Jul 2026 03:32:56.268" />
+            </Row>
+        </ContentView>
+    </Views>
+    <Views Type = "Time">
+        <TimeView FullViewRulerStartTime = "0.000000" FullViewRulerStopTime = "0.000000" GlobalIntervalComp = "AnalysisInterval" GlobalIntervalCompPath = "/Application/STK/Scenario/STK_Radar" GlobalStartOffset = "0.000000" GlobalStartTime = "2 Jul 2026 03:00:00.000" GlobalStopOffset = "0.000000" GlobalStopTime = "2 Jul 2026 03:30:00.000" MaxFullViewTime = "0.000000" MinFullViewTime = "0.000000" Name = "Scenario Analysis Period" ViewportStartTime = "0.000000" ViewportStopTime = "0.000000" />
+    </Views>
+</TimelineLine_Prefs>
