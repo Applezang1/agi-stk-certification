@@ -1,0 +1,66 @@
+stk.v.13.0
+WrittenBy    STK_v13.0.0
+
+BEGIN Constellation
+
+    Name		 GPS_Sats
+    BEGIN Definition
+        Object		 Satellite/NAVSTAR_69_USA_248_39533
+        Object		 Satellite/NAVSTAR_70_USA_251_39741
+        Object		 Satellite/NAVSTAR_71_USA_256_40105
+        Object		 Satellite/NAVSTAR_72_USA_258_40294
+        Object		 Satellite/NAVSTAR_73_USA_260_40534
+        Object		 Satellite/NAVSTAR_74_USA_262_40730
+        Object		 Satellite/NAVSTAR_75_USA_265_41019
+        Object		 Satellite/NAVSTAR_76_USA_266_41328
+        Object		 Satellite/NAVSTAR_77_USA_289_43873
+        Object		 Satellite/NAVSTAR_78_USA_293_44506
+        Object		 Satellite/NAVSTAR_79_USA_304_45854
+        Object		 Satellite/NAVSTAR_80_USA_309_46826
+        Object		 Satellite/NAVSTAR_81_USA_319_48859
+        Object		 Satellite/NAVSTAR_82_USA_343_55268
+        Object		 Satellite/NAVSTAR_83_USA_440_62339
+        Object		 Satellite/NAVSTAR_84_USA_545_64202
+        Object		 Satellite/NAVSTAR_85_USA_581_67588
+        Object		 Satellite/NAVSTAR_86_USA_585_68791
+        Object		 Satellite/Svn43_24876
+        Object		 Satellite/Svn44_26407
+        Object		 Satellite/Svn48_32711
+        Object		 Satellite/Svn50_35752
+        Object		 Satellite/Svn52_29486
+        Object		 Satellite/Svn53_28874
+        Object		 Satellite/Svn55_32260
+        Object		 Satellite/Svn56_27663
+        Object		 Satellite/Svn57_32384
+        Object		 Satellite/Svn58_29601
+        Object		 Satellite/Svn59_28190
+        Object		 Satellite/Svn61_28474
+        Object		 Satellite/Svn62_36585
+        Object		 Satellite/Svn65_38833
+        Object		 Satellite/Svn66_39166
+        Type		 Constellation
+        FromOperator		 NofM
+        FromOrder		 4
+        ToOperator		 Or
+        ToOrder		 1
+        UseRoutingRulesFile		 No
+
+    END Definition
+
+    BEGIN Extensions
+
+        BEGIN ADFFileData
+        END ADFFileData
+
+        BEGIN Desc
+            BEGIN ShortText
+
+            END ShortText
+            BEGIN LongText
+
+            END LongText
+        END Desc
+
+    END Extensions
+
+END Constellation
